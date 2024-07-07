@@ -1,0 +1,72 @@
+/* src/assets/css/style.css*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Nanum Gothic", sans-serif;
+    line-height: 2.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3.5rem;
+    width: 100%;
+    background-color: black;
+    color: lightblue;
+}
+
+nav > a {
+    display: block;
+    padding: 1rem 2rem;
+
+    color: lightcoral;
+}
+
+nav > a:hover {
+    color: aqua;
+}
+
+main {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: .5rem .5rem;
+    min-height: 100vh;
+}
+
+main > h1 {
+    margin: 2rem 0 0.5rem;
+}
+
+main > img {
+    border-radius: 5px;
+}
+
+footer {
+    background-color: lightsalmon;
+    color: lightblue;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
