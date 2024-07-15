@@ -2,8 +2,6 @@
 title: Contact
 layout: layouts/page.njk
 ---
-![library image](assets/images/childs_library_wall.jpeg)
-
 # Contact
 
 - Contact form

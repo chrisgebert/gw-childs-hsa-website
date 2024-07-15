@@ -2,17 +2,15 @@
 title: About
 layout: layouts/page.njk
 ---
-![project image](assets/images/childs_capital_projects_1.jpg)
-
 # About
 
 ## About Our School
 
 Welcome to GW Childs School, a cornerstone of education in the Point Breez neighborhood of Philadelphia!
 
-Our public school takes pride in its rich history, diverse community, and commitment to fostering academic achievement. Our school providers a nurturing environment where students are empowered to learn, grow, and achieve their full potential.
+Our public school takes pride in its rich history, diverse community, and commitment to fostering academic achievement. Our school provides a nurturing environment where students are empowered to learn, grow, and achieve.
 
-Explore our website to discover the unique programs, dedicated faculty, and exciting opportunities that make GW Childs a place where education meets inspiration,. Join us on this educational journey, where we celebrate diversity, embrace creativity, and cultivate the leaders of tomorrow.
+Explore our website to discover the unique programs, dedicated faculty, and exciting opportunities that make GW Childs a place where education meets inspiration. Join us on this educational journey, where we celebrate diversity, embrace creativity, and cultivate the leaders of tomorrow.
 
 ## About Our HSA
 
