@@ -1,7 +1,8 @@
 module.exports = function(eleventyConfig) {  
     // Set custom directories for input, output, includes, and data 
-    eleventyConfig.addPassthroughCopy("src/assets/css/style.css");
+    eleventyConfig.addPassthroughCopy("src/assets/css/");
     eleventyConfig.addPassthroughCopy("src/assets/images");
+    eleventyConfig.addPassthroughCopy("src/assets/js");
 
     return {
         passthroughFileCopy: true,
