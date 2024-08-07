@@ -1,75 +1,33 @@
-<!DOCTYPE HTML>
-<!--
-	Binary by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
---><html>
-    <head>
-        <title>G.W. Childs HSA - Fundraising</title>
-        <meta charset="utf-8">
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/_site/assets/css/main.css">
-    </head>
-    <body>
+---
+title: Fundraising
+layout: layouts/base.njk
+---
 
-    <!-- Header -->
-    <header id="header"><a href="index.html" class="logo"><strong>G.W. Childs HSA</strong></a>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
+<div class="inner">
+    <!-- <div class="image fit"><img src="images/pic11.jpg" alt=""></div> -->
+    <header><h1>Fundraising</h1>
+        <!--   <p class="info">3 days ago by <a href="#">Jane Doe</a></p> -->
     </header>
-    <!-- Nav -->
-     <nav id="menu">
-        <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="fundraising.html">Fundraising</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="newsletter.html">Newsletter</a></li>
-        </ul>
-    </nav>
-    <section id="main">
-        <div class="inner">
-            <!-- <div class="image fit"><img src="images/pic11.jpg" alt=""></div> -->
-            <header><h1>Fundraising</h1>
-             <!--   <p class="info">3 days ago by <a href="#">Jane Doe</a></p> -->
-            </header>
-            <p>We are committed to providing a great educational experience and we invite you to be a part of this commitment through our fundraising initiatives.</p> 
-        </div>
-        <div class="inner">
-            <header><h2>Why Fundraising Matters</h2></header>
-            <p><span class="image right"><img src="/_site/assets/images/childs_capital_projects_1.jpg" alt=""></span>Funds raised play a crucial role in enhancing resources, activities, and overall school improvements. By contributing, you have a direct impact on the quality of education and opportunities available at G.W. Childs.</p>
-            <h3>How You Can Help</h3>
-            <ol>
-                <li><strong>Donate: </strong>Every donation, big or small, makes a difference. Your financial support enables us to invest in tools, technology, and programs that benefit all students.</li>
-                <li><strong>Attend Fundraising Events: </strong>Join us for events that not only raise funds for the school but also build a sense of community. Your participation in these events  </li>
-                <li><strong>Volunteer Your Time: </strong>Your time ans skills are invaluable. Join our dedicated team of volunteers to organize and execute fundraising activities. Whether you're coordinating events or reaching out to local businesses for sponsorships, your efforts contribute significantly.</li>
-            </ol>
-        </div>
-        <div class="inner">
-            <header><p>Check our <a href="events.html">Events page</a> or sign up for <a href="newsletter.html">our newsletter</a> to find out about upcoming fundraising events!</p></header>
-        </div>
-        <div class="inner">
-            <header><h2>Corporate Sponsorship Opportunities</h2></header>
-            <p>Local businesses interested in supporting education and community development are encouraged. Partner with G.W. Childs to make a lasting impact on the future of our community.</p>
-        </div>
-        <div class="inner">
-            <header><h2>Get Involved Today</h2></header>
-            <p><a href="contact.html">Contact us</a> to learn more!</p>
-        </div>
-    </section>
-    <!-- Footer -->
-     <footer id="footer">
-        <ul class="icons">
-            <li><a href="https://www.facebook.com/GWChildsSchool/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="https://www.instagram.com/gw_childs_elementary/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-        </ul>
-    </footer>
-    <div class="copyright">
-    Made with: <a href="https://templated.co/">Templated.co</a>
+    <p>We are committed to providing a great educational experience and we invite you to be a part of this commitment through our fundraising initiatives.</p> 
 </div>
-
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrolly.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><script src="assets/js/main.js"></script></body></html>
+<div class="inner">
+    <header><h2>Why Fundraising Matters</h2></header>
+    <p><span class="image right"><img src="{{'/assets/images/childs_capital_projects_1.jpg' | url}}" alt=""></span>Funds raised play a crucial role in enhancing resources, activities, and overall school improvements. By contributing, you have a direct impact on the quality of education and opportunities available at G.W. Childs.</p>
+    <h3>How You Can Help</h3>
+    <ol>
+        <li><strong>Donate: </strong>Every donation, big or small, makes a difference. Your financial support enables us to invest in tools, technology, and programs that benefit all students.</li>
+        <li><strong>Attend Fundraising Events: </strong>Join us for events that not only raise funds for the school but also build a sense of community. Your participation in these events  </li>
+        <li><strong>Volunteer Your Time: </strong>Your time ans skills are invaluable. Join our dedicated team of volunteers to organize and execute fundraising activities. Whether you're coordinating events or reaching out to local businesses for sponsorships, your efforts contribute significantly.</li>
+    </ol>
+</div>
+<div class="inner">
+    <header><p>Check our <a href="{{'/events' | url}}">Events page</a> or sign up for <a href="{{'/newsletter' | url}}">our newsletter</a> to find out about upcoming fundraising events!</p></header>
+</div>
+<div class="inner">
+    <header><h2>Corporate Sponsorship Opportunities</h2></header>
+    <p>Local businesses interested in supporting education and community development are encouraged. Partner with G.W. Childs to make a lasting impact on the future of our community.</p>
+</div>
+<div class="inner">
+    <header><h2>Get Involved Today</h2></header>
+    <p><a href="{{'/contact' | url}}">Contact us</a> to learn more!</p>
+</div>
