@@ -1,29 +1,51 @@
 <!DOCTYPE html>
+<!--
+	      Binary by TEMPLATED
+	      templated.co @templatedco
+	      Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+
 <html lang="en">
-  <head>
-    
-    {# This is the base template for the site–other templates extend this one #}
-    
+
+<head>
     <meta charset="utf-8" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Your new 11ty blog" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum%20Gothic:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
-    <title>GW Childs HSA - {{title}}</title>
+    <meta name="description" content="{{site.description}}" />
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
+    <title>{{ site.title }} {{title}}</title>
   </head>
+
   <body>
-    {% include "partials/_navigation.njk" %}
-  <main>
-    
-    {# Page or post content will appear here #}
-  
+  <!-- Header -->
+  <header><a href="{{'/' | url}}" class="logo"><strong>G.W. Childs HSA</strong></a>
+				<nav>
+          <a href="#menu">Menu</a>
+				</nav>
+	</header>
+	<!-- Nav -->
+  {% include "partials/_navigation.njk" %}
+
+  <!-- Main -->
+  <section id="main">
+
     {{ content | safe }}
 
-    {% include "partials/_footer.njk" %}
-  </main>
-   
+  </section>
+
+  <!-- Footer -->
+  {% include "partials/_footer.njk" %}
+
+  <div class="copyright">
+    Made with: <a href="https://templated.co/">Templated.co</a>
+  </div>
+  
+    <!-- Scripts -->
+    <script src="{{'/assets/js/jquery.min.js' | url}}"></script>
+    <script src="{{'/assets/js/jquery.scrolly.min.js' | url}}"></script>
+    <script src="{{'/assets/js/skel.min.js' | url}}"></script>
+    <script src="{{'/assets/js/util.js' | url}}"></script>
+    <script src="{{'/assets/js/main.js' | url}}"></script>
+
   </body>
 </html>

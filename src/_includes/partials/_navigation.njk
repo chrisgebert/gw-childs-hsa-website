@@ -1,8 +1,11 @@
 <!-- _includes/partials/_navigation.njk-->
-<nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
-    <a href="/fundraising">Fundraising</a>
-    <a href="/newsletter-welcome">Newsletter</a>
+<nav id="menu">
+    <ul class="links">
+        <li><a href="{{ '/' | url}}">Home</a></li>
+        <li><a href="{{ '/about' | url }}">About</a></li>
+        <li><a href="{{ '/contact' | url }}">Contact</a></li>
+        <li><a href="{{ '/events' | url }}">Events</a></li>
+        <li><a href="{{ '/fundraising' | url }}">Fundraising</a></li>
+        <li><a href="{{ '/newsletter' | url }}">Newsletter</a></li>
+    </ul>
 </nav>
