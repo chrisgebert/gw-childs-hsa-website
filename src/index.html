@@ -12,15 +12,8 @@
 				</nav>
 			</header>
 			<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="{{'/pages/about/' | url}}">About</a></li>
-					<li><a href="{{'/pages/events/' | url}}">Events</a></li>
-					<li><a href="{{'/pages/fundraising/' | url}}">Fundraising</a></li>
-					<li><a href="{{'/pages/contact/' | url}}">Contact</a></li>
-					<li><a href="{{'/pages/newsletter/' | url}}">Newsletter</a></li>
-				</ul>
-			</nav>
+			{% include "partials/_navigation.njk" %}
+
 			<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
@@ -117,7 +110,7 @@
 			<!-- Five -->
 			<article id="five" class="post style3">
 				<div class="image">
-					<img src="{{'assets/images/IMG_6056.jpeg' | url}}" alt="" data-position="5% center" width="1400" height="768">
+					<img src="{{'/assets/images/IMG_6056.jpeg' | url}}" alt="" data-position="5% center" width="1400" height="768">
 				</div>
 				<div class="content">
 					<div class="inner">
@@ -157,12 +150,7 @@
 				</div>
 			</article> -->
 			<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-				</ul>
-			</footer>
+			{% include "partials/_footer.njk" %}
 		<div class="copyright">
 			Made with: <a href="https://templated.co/">Templated.co</a>
 		</div>
