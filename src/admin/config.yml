@@ -5,8 +5,8 @@ backend:
 media_folder: "assets/images/uploads"
 
 collections:
-  - name: "blog"
-    label: "Blog"
+  - name: "newsletter"
+    label: "Newsletter"
     folder: "posts"
     create: true
     slug: ""
