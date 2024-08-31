@@ -4,10 +4,12 @@ backend:
 
 media_folder: "assets/images/uploads"
 
+publish_mode: editorial_workflow
+
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "posts"
+  - name: "newsletter"
+    label: "Newsletter"
+    folder: "src/posts"
     create: true
     slug: ""
     fields:

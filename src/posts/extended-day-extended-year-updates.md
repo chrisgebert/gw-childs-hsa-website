@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: layouts/post.njk
 title: Extended Day / Extended Year Updates
 date: 2024-08-30
 tags:
   - posts
+  - after-care
+  - before-care
 ---
 Early in the summer of 2024, the Mayor's office announced that G.W. Childs would be one of the schools in the pilot program for the 2024-2025 school year. Details have been scarce until now but with the start of the school year, they are starting to take shape.
 
