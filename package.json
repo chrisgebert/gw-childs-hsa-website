@@ -7,6 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
+    "dev": "@11ty/eleventy --serve",
+    "build": "@11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
