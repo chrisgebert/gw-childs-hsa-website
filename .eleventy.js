@@ -11,9 +11,12 @@ module.exports = function(eleventyConfig) {
             return eventDate >= now && eventDate <= sixWeeksLater;
         });
     });
-
     eleventyConfig.addFilter("dateFormat", function(date, format) {
         return DateTime.fromISO(date).toFormat(format);
+    });
+
+    eleventyConfig.addCollection("posts", function(collectionApi) {
+        return collectionApi.getFilteredByTag("post");
     });
 
     eleventyConfig

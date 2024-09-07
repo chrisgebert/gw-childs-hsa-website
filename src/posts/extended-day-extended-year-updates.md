@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Extended Day / Extended Year Updates
 date: 2024-08-30
 tags:
-  - posts
+  - post
   - after-care
   - before-care
 ---
