@@ -1,0 +1,488 @@
+[
+  {
+    "date": "2024-08-20",
+    "event": "First Day Staff / Professional Development"
+  },
+  {
+    "date": "2024-08-21",
+    "event": "Professional Development",
+    "endDate": "2024-08-22"
+  },
+  {
+    "date": "2024-08-23",
+    "event": "Reorganization Day"
+  },
+  {
+    "date": "2024-08-26",
+    "event": "First Day for Students"
+  },
+  {
+    "date": "2024-08-27",
+    "event": "Middle Years Town Hall (grades 6, 7 & 8)"
+  },
+  {
+    "date": "2024-09-02",
+    "event": "No School"
+  },
+  {
+    "date": "2024-09-09",
+    "event": "Town Hall Grade 6"
+  },
+  {
+    "date": "2024-09-12",
+    "event": "Back to School Night"
+  },
+  {
+    "date": "2024-09-13",
+    "event": "School Selection Opens"
+  },
+  {
+    "date": "2024-09-16",
+    "event": "Town Hall Grade 7"
+  },
+  {
+    "date": "2024-09-17",
+    "event": "School Selection Parent Meeting",
+    "time": "09:00"
+  },
+  {
+    "date": "2024-09-19",
+    "event": "Home and School Meeting",
+    "time": "09:00"
+  },
+  {
+    "date": "2024-09-19",
+    "event": "School Selection Parent Meeting",
+    "time": "16:00"
+  },
+  {
+    "date": "2024-09-23",
+    "event": "Town Hall Grade 8"
+  },
+  {
+    "date": "2024-09-27",
+    "event": "Early Dismissal / Professional Development"
+  },
+  {
+    "date": "2024-09-30",
+    "event": "Student of the Month"
+  },
+  {
+    "date": "2024-09-30",
+    "event": "End of the Month Reward"
+  },
+  {
+    "date": "2024-09-30",
+    "event": "Pretzels and Water Ice"
+  },
+  {
+    "date": "2024-10-03",
+    "event": "No School"
+  },
+  {
+    "date": "2024-10-07",
+    "event": "Book Fair",
+    "endDate": "2024-10-11"
+  },
+  {
+    "date": "2024-10-10",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2024-10-14",
+    "event": "Town Hall Grade 6"
+  },
+  {
+    "date": "2024-10-17",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2024-10-17",
+    "event": "Home and School Meeting"
+  },
+  {
+    "date": "2024-10-21",
+    "event": "Town Hall Grade 7"
+  },
+  {
+    "date": "2024-10-23",
+    "event": "School Selection Closes"
+  },
+  {
+    "date": "2024-10-23",
+    "event": "Bring Your Caregiver to School Day"
+  },
+  {
+    "date": "2024-10-24",
+    "event": "School Picture Day"
+  },
+  {
+    "date": "2024-10-24",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2024-10-25",
+    "event": "Staff Only Professional Development"
+  },
+  {
+    "date": "2024-10-28",
+    "event": "Town Hall Grade 8"
+  },
+  {
+    "date": "2024-10-30",
+    "event": "Student of the Month"
+  },
+  {
+    "date": "2024-10-30",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2024-10-31",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2024-11-04",
+    "event": "Town Hall Grade 6"
+  },
+  {
+    "date": "2024-11-05",
+    "event": "No School"
+  },
+  {
+    "date": "2024-11-07",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2024-11-11",
+    "event": "Town Hall Grade 7"
+  },
+  {
+    "date": "2024-11-14",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2024-11-15",
+    "event": "Staff Only / Report Card Conferences"
+  },
+  {
+    "date": "2024-11-18",
+    "event": "Town Hall Grade 8"
+  },
+  {
+    "date": "2024-11-21",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2024-11-21",
+    "event": "Home and School Meeting"
+  },
+  {
+    "date": "2024-11-26",
+    "event": "Student of the Month"
+  },
+  {
+    "date": "2024-11-27",
+    "event": "Early Dismissal"
+  },
+  {
+    "date": "2024-11-28",
+    "event": "No School - Thanksgiving Holiday",
+    "endDate": "2024-11-29"
+  },
+  {
+    "date": "2024-12-02",
+    "event": "Town Hall Grade 6"
+  },
+  {
+    "date": "2024-12-02",
+    "event": "Picture Retake Day"
+  },
+  {
+    "date": "2024-12-05",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2024-12-09",
+    "event": "Town Hall Grade 7"
+  },
+  {
+    "date": "2024-12-12",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2024-12-12",
+    "event": "Winter Concert"
+  },
+  {
+    "date": "2024-12-13",
+    "event": "Early Dismissal / Professional Development"
+  },
+  {
+    "date": "2024-12-16",
+    "event": "Town Hall Grade 8"
+  },
+  {
+    "date": "2024-12-19",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2024-12-19",
+    "event": "Home and School Meeting"
+  },
+  {
+    "date": "2024-12-23",
+    "event": "Winter Break"
+  },
+  {
+    "date": "2025-01-01",
+    "event": "No School"
+  },
+  {
+    "date": "2025-01-03",
+    "event": "Staff Only Professional Development"
+  },
+  {
+    "date": "2025-01-06",
+    "event": "Town Hall Grade 6"
+  },
+  {
+    "date": "2025-01-09",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-01-13",
+    "event": "Town Hall Grade 7"
+  },
+  {
+    "date": "2025-01-16",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-01-16",
+    "event": "Home and School Meeting"
+  },
+  {
+    "date": "2025-01-20",
+    "event": "No School"
+  },
+  {
+    "date": "2025-01-23",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-01-27",
+    "event": "Town Hall Grade 8"
+  },
+  {
+    "date": "2025-01-29",
+    "event": "No School"
+  },
+  {
+    "date": "2025-01-30",
+    "event": "Early Dismissal / Report Card Conferences"
+  },
+  {
+    "date": "2025-01-31",
+    "event": "Early Dismissal / Report Card Conferences"
+  },
+  {
+    "date": "2025-02-03",
+    "event": "Town Hall Grade 6"
+  },
+  {
+    "date": "2025-02-06",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-02-07",
+    "event": "Early Dismissal / Professional Development"
+  },
+  {
+    "date": "2025-02-10",
+    "event": "Town Hall Gr. 7"
+  },
+  {
+    "date": "2025-02-12",
+    "event": "Bring Your Caregiver to School Day"
+  },
+  {
+    "date": "2025-02-13",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-02-17",
+    "event": "No School"
+  },
+  {
+    "date": "2025-02-20",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-02-20",
+    "event": "Home and School Meeting"
+  },
+  {
+    "date": "2025-02-24",
+    "event": "Town Hall Grade 8"
+  },
+  {
+    "date": "2025-02-27",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-02-28",
+    "event": "Student of the Month"
+  },
+  {
+    "date": "2025-03-03",
+    "event": "Town Hall Grade 6"
+  },
+  {
+    "date": "2025-03-06",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-03-07",
+    "event": "Early Dismissal / Professional Development"
+  },
+  {
+    "date": "2025-03-10",
+    "event": "Town Hall Gr. 7"
+  },
+  {
+    "date": "2025-03-13",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-03-20",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-03-20",
+    "event": "Home and School Meeting"
+  },
+  {
+    "date": "2025-03-26",
+    "event": "Student of the Month"
+  },
+  {
+    "date": "2025-03-26",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-03-27",
+    "event": "Early Dismissal / Report Card Conferences"
+  },
+  {
+    "date": "2025-03-28",
+    "event": "Early Dismissal / Report Card Conferences"
+  },
+  {
+    "date": "2025-03-31",
+    "event": "No School"
+  },
+  {
+    "date": "2025-04-03",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-04-07",
+    "event": "Town Hall Grade 6"
+  },
+  {
+    "date": "2025-04-10",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-04-14",
+    "event": "Spring Break"
+  },
+  {
+    "date": "2025-04-21",
+    "event": "Town Hall Grade 7"
+  },
+  {
+    "date": "2025-04-24",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-04-24",
+    "event": "Home and School Meeting"
+  },
+  {
+    "date": "2025-04-28",
+    "event": "Town Hall Grade 8"
+  },
+  {
+    "date": "2025-04-30",
+    "event": "Student of the Month"
+  },
+  {
+    "date": "2025-05-01",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-05-05",
+    "event": "Town Hall Grade 6"
+  },
+  {
+    "date": "2025-05-08",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-05-09",
+    "event": "Early Dismissal / Professional Development"
+  },
+  {
+    "date": "2025-05-12",
+    "event": "Town Hall Grade 7"
+  },
+  {
+    "date": "2025-05-14",
+    "event": "Spring Concert"
+  },
+  {
+    "date": "2025-05-15",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-05-15",
+    "event": "Home and School Meeting"
+  },
+  {
+    "date": "2025-05-19",
+    "event": "Town Hall Grade 8"
+  },
+  {
+    "date": "2025-05-20",
+    "event": "No School"
+  },
+  {
+    "date": "2025-05-22",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-05-22",
+    "event": "Fun Day"
+  },
+  {
+    "date": "2025-05-26",
+    "event": "No School"
+  },
+  {
+    "date": "2025-05-29",
+    "event": "Pretzel Day"
+  },
+  {
+    "date": "2025-05-30",
+    "event": "Student of the Month"
+  },
+  {
+    "date": "2025-06-11",
+    "event": "Early Dismissal / Professional Development"
+  },
+  {
+    "date": "2025-06-12",
+    "event": "Last Day Staff & Students"
+  }
+]

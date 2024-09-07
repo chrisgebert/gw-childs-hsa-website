@@ -1,0 +1,11 @@
+    <ul>
+    {% for event in events | futureEvents %}
+        <li>
+            <p> {{ event.date | dateFormat("MMMM d, yyyy") }}: {{ event.event }} </p>
+        </li>
+    {% endfor %}
+    </ul>
+
+    {% if (events | futureEvents).length === 0 %}
+        <p>No upcoming events in the next 3 months.</p>
+    {% endif %}
