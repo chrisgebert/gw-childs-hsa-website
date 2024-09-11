@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Extended Day / Extended Year Updates
-date: 2024-08-30
+date: "2024-08-30"
 author: Chris Gebert
 tags:
   - post
