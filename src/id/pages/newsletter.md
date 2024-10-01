@@ -2,7 +2,6 @@
 title: Newsletter
 layout: layouts/page.njk
 lang: id
-permalink: id/buletin
 ---
 
 # Daftar untuk buletin kami!

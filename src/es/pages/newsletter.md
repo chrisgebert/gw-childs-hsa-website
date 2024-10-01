@@ -2,7 +2,6 @@
 title: Newsletter
 layout: layouts/page.njk
 lang: es
-permalink: es/boletin
 ---
 
 # ¡Suscríbete a nuestro boletín!

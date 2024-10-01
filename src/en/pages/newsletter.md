@@ -2,7 +2,6 @@
 title: Newsletter
 layout: layouts/page.njk
 lang: en
-permalink: en/newsletter
 ---
 
 # Sign up for our newsletter!

@@ -1,0 +1,33 @@
+
+[build]
+    command = "npm run build"
+    publish = "_site"
+
+# redirects to english, spanish, indonesian, or vietnamese landing pages.
+
+[[redirects]]
+    from = "/"
+    to = "/es"
+    status = 302
+    force = true
+    conditions = {Language = ["es"]}
+
+[[redirects]]
+    from = "/"
+    to = "/id"
+    status = 302
+    force = true
+    conditions = {Language = ["id"]}
+
+[[redirects]]
+    from = "/"
+    to "/vi"
+    status = 302
+    force = true
+    conditions = {Language = ["vi"]}
+
+[[redirects]]
+    from = "/"
+    to = "/en"
+    status = 302
+    force = true
