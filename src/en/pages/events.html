@@ -10,8 +10,8 @@ lang: en
             <!--  <p class="info">3 days ago by <a href="#">Jane Doe</a></p> -->
         </header>
         <div class="inner">
-        <header><h2>School Calendar</h2></header>
-        {% include "partials/events.njk" %}
+        <header><h2>School Calendar <span style="text-decoration: underline;"><a href="{{ '/files/school-calendar-detailed.ics' | url }}">(ICS)</a></span></h2></header>
+        {% include "partials/school-events.njk" %}
         </div>
         <div class="inner">
         <header><h2>HSA Calendar</h2></header>

@@ -6,28 +6,28 @@
 # redirects to english, spanish, indonesian, or vietnamese landing pages.
 
 [[redirects]]
-    from = "/"
-    to = "/es"
+    from = "/*"
+    to = "/es/:splat"
     status = 302
     force = true
     conditions = {Language = ["es"]}
 
 [[redirects]]
-    from = "/"
-    to = "/id"
+    from = "/*"
+    to = "/id/:splat"
     status = 302
     force = true
     conditions = {Language = ["id"]}
 
 [[redirects]]
-    from = "/"
-    to = "/vi"
+    from = "/*"
+    to = "/vi/:splat"
     status = 302
     force = true
     conditions = {Language = ["vi"]}
 
 [[redirects]]
-    from = "/"
-    to = "/en"
+    from = "/*"
+    to = "/en/:splat"
     status = 302
     force = true

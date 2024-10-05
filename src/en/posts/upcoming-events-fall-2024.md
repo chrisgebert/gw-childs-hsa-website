@@ -9,7 +9,7 @@ tags:
 
 ### HSA Meetings
 
-The HSA held the first HSA meeting of the 2024-2025 school year this morning, with information presented by interim principal Dr. Butler regarding 
+The HSA held the first HSA meeting of the 2024-2025 school year this morning, with information presented by interim principal Dr. Butler regarding Title I funding for the school and the district.
 
 The next HSA Meetings are scheduled for:
 - Thursday, October, 19th

@@ -18,4 +18,4 @@ Looking to get involved? [Contact us]({{ '/en/pages/contact/' | url }}) to find 
 
 Find our meeting notes from our monthly HSA meetings. All are welcome!
 
-[Read more]({{ '/en/pages/newsletter-archive' | url}})
+## [Read more]({{ '/en/pages/newsletter-archive' | url}})
