@@ -9,7 +9,7 @@ tags:
 
 #### New Art Tables 
 
-Our own Ms. Hedrick is looking to raise money for new art tables in her art room. <span class="image right">![DonorsChoose logo](/assets/images/DonorsChoose-Blue.png)</span>
+Our own Ms. Hedrick is looking to raise money for new art tables in her art room. The current tables are not wheelchair accessible and students using wheelchairs have to sit off to the side of the tables in an uncomfortable way. We can improve their time in art class! <span class="image right">![DonorsChoose logo](/assets/images/DonorsChoose-Blue.png)</span>
 
 Please donate and help to spread the word!
 

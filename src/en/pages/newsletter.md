@@ -6,6 +6,8 @@ lang: en
 
 # Sign up for our newsletter!
 
+[Subscribe here!](https://buttondown.com/gwchildshsa#subscribe-form)
+
 ## Project Updates
 
 Find out about ongoing projects and recent updates.
