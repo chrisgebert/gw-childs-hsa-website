@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: Principal Selection Advisory Committee
 date: "2024-09-19"
 author: Chris Gebert

@@ -1,7 +1,10 @@
-const { DateTime } = require("luxon");
+import { DateTime } from "luxon";
 
-module.exports = function(eleventyConfig) {
-    // Set custom directories for input, output, includes, and data
+import UpgradeHelper from "@11ty/eleventy-upgrade-help";
+
+import { I18nPlugin } from "@11ty/eleventy";
+
+export default function(eleventyConfig) {    // Set custom directories for input, output, includes, and data
 
     eleventyConfig.addFilter("futureEvents", function(events) {
         const now = DateTime.now();
@@ -17,26 +20,30 @@ module.exports = function(eleventyConfig) {
         return DateTime.fromISO(date).toFormat(format);
     });
 
-    eleventyConfig.addCollection("posts", function(collectionApi) {
-        return collectionApi.getFilteredByTag("post");
-    });
-
     eleventyConfig.addFilter("basicDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     });
 
-    eleventyConfig
-        .addPassthroughCopy("src/assets/css")
-        .addPassthroughCopy("src/assets/images")
-        .addPassthroughCopy("src/assets/js")
-        .addPassthroughCopy("src/files/")
-        .addPassthroughCopy("src/admin");
+
+    eleventyConfig.addPlugin(UpgradeHelper);
+
+    ['src/assets/css', 'src/assets/images', 'src/assets/js', 'src/files', 'src/admin'].forEach(path =>
+        eleventyConfig.addCollection(path)
+    );
 
     return {
+        templateFormats: [
+            "md",
+            "njk",
+            "html",
+            "liquid",
+            "11ty.js",
+        ],
+
         markdownTemplateEngine: "njk",
         dataTemplateEngine: "njk",
         htmlTemplateEngine: "njk",
-        passthroughFileCopy: true,
+
         dir: {
             input: "src",
             includes: "_includes",
@@ -44,4 +51,4 @@ module.exports = function(eleventyConfig) {
             output: "_site"
         },
     };
-};
+}

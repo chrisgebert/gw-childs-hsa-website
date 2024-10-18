@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: Philadelphia School District Seeks Community Input for Future Academic Calendars
 date: "2024-09-26"
 author: Chris Gebert
