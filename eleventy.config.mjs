@@ -6,6 +6,10 @@ import { I18nPlugin } from "@11ty/eleventy";
 
 export default function(eleventyConfig) {    // Set custom directories for input, output, includes, and data
 
+    eleventyConfig.addCollection("posts", function(collectionApi) {
+        return collectionApi.getFilteredByTag("post");
+    });
+
     eleventyConfig.addFilter("futureEvents", function(events) {
         const now = DateTime.now();
         const sixWeeksLater = now.plus({ weeks: 6});
@@ -23,7 +27,6 @@ export default function(eleventyConfig) {    // Set custom directories for input
     eleventyConfig.addFilter("basicDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     });
-
 
     eleventyConfig.addPlugin(UpgradeHelper);
 
