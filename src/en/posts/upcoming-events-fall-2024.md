@@ -1,4 +1,5 @@
 ---
+layout: layouts/post.njk
 title: Upcoming Events - Fall 2024
 date: "2024-09-19"
 author: Chris Gebert

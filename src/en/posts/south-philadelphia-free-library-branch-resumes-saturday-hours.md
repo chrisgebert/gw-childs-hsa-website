@@ -1,4 +1,5 @@
 ---
+layout: layouts/post.njk
 title: South Philadelphia Free Library Branch Resumes Saturday Hours
 date: "2024-09-27"
 author: Chris Gebert

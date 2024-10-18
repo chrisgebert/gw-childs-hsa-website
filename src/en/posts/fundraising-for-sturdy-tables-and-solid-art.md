@@ -1,4 +1,5 @@
 ---
+layout: layouts/post.njk
 title: Fundraising for Sturdy Tables and Solid Art
 date: "2024-10-05"
 author: Chris Gebert
