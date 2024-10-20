@@ -2,8 +2,6 @@
 /lib
 /include
 /node_modules
-
-/_site/generic
-/_site/elements
+/_site
 
 pyvenv.cfg

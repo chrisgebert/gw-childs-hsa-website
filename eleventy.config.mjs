@@ -2,9 +2,9 @@ import { DateTime } from "luxon";
 
 import UpgradeHelper from "@11ty/eleventy-upgrade-help";
 
-import { I18nPlugin } from "@11ty/eleventy";
+import { EleventyI18nPlugin } from "@11ty/eleventy";
 
-export default function(eleventyConfig) {    // Set custom directories for input, output, includes, and data
+export default function (eleventyConfig) {    // Set custom directories for input, output, includes, and data
 
     eleventyConfig.addCollection("posts", function(collectionApi) {
         return collectionApi.getFilteredByTag("post");
@@ -26,6 +26,11 @@ export default function(eleventyConfig) {    // Set custom directories for input
 
     eleventyConfig.addFilter("basicDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+    });
+
+    eleventyConfig.addPlugin(EleventyI18nPlugin, {
+        defaultLanguage: "en",
+        errorMode: "allow-fallback"
     });
 
     eleventyConfig.addPlugin(UpgradeHelper);
