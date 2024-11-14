@@ -12,7 +12,7 @@ Averigüe sobre los proyectos en curso y las actualizaciones recientes.
 
 ## Solicitudes de la comunidad
 
-¿Quieres involucrarte? [Contáctenos]({{ '/pages/contact/' | url }}) para averiguar cómo puede ser voluntario.
+¿Quieres involucrarte? [Contáctenos]({{ '/pages/contact/' | locale_url }}) para averiguar cómo puede ser voluntario.
 
 ## Notas de la reunión
 

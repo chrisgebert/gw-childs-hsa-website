@@ -12,7 +12,7 @@ Tìm hiểu về các dự án đang diễn ra và các cập nhật gần đây
 
 ## Yêu cầu của Cộng đồng
 
-Tìm cách tham gia? [Liên hệ với chúng tôi]({{ '/pages/contact/' | url }}) để tìm hiểu cách bạn có thể tình nguyện.
+Tìm cách tham gia? [Liên hệ với chúng tôi]({{ '/pages/contact/' | locale_url }}) để tìm hiểu cách bạn có thể tình nguyện.
 
 ## Ghi chú cuộc họp
 

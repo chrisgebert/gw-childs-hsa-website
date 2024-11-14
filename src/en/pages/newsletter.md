@@ -14,10 +14,10 @@ Find out about ongoing projects and recent updates.
 
 ## Requests of the Community
 
-Looking to get involved? [Contact us]({{ '/en/pages/contact/' | url }}) to find out how you can volunteer.
+Looking to get involved? [Contact us]({{ '/pages/contact/' | locale_url }}) to find out how you can volunteer.
 
 ## Meeting Notes
 
 Find our meeting notes from our monthly HSA meetings. All are welcome!
 
-## [Read more]({{ '/en/pages/newsletter-archive' | url}})
+## [Read more]({{ '/pages/newsletter-archive' | locale_url }})
