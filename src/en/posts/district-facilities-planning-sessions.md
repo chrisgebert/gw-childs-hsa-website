@@ -7,10 +7,14 @@ tags:
     - post
 ---
 
-The School District is hosting Listening and Learning sessions, both in-person and virtual, to get community input regarding about their facilities planning project.
+The School District is hosting Listening and Learning sessions, both in-person and virtual, to get community input regarding about their facilities planning project. While they haven't directly said that these sessions will be used to determine the next round of school closures for the district, these sessions will provide a lot of feedback to inform that process
+
+[Philly school closures to be shaped by community voices, district says](https://www.chalkbeat.org/philadelphia/2024/11/14/school-closures-will-be-shaped-by-community-input/)
+> At community meetings across the city, the School District of Philadelphia is warning families that school closures are coming, but unlike the last time the district closed schools, officials say this time, they want parents, students, and neighbors to help shape the decision-making from the beginning.
+
+> “We first and foremost have learned that there has to be increased community engagement,” said Oz Hill, the district’s deputy superintendent of operations, at the first facilities planning meeting on Nov. 4 in Northeast Philly. “We didn’t do that well the last time, and we’re not going to make that same mistake going forward.”
 
 Please try to join one or more of the below sessions to share your input with the district to inform how they will plan to use district buildings and space over the next few years.
-
 
 In-Person Conversations
 - Monday, November 4th,  5:30pm - 7:30pm, 1919 Cottman Ave
