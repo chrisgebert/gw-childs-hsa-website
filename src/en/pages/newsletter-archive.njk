@@ -1,0 +1,14 @@
+---
+title: Newsletter Archive
+layout: layouts/page.njk
+---
+
+    <div class="inner">
+        <header><h1>Newsletter Archive</h1></header>
+            <ul>
+                {% for post in collections.posts | reverse %}
+                <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+                <p>{{ post.date | basicDate }} by {{ post.data.author }} </p>
+                {% endfor %}
+            </ul>
+    </div>
