@@ -1,7 +1,5 @@
 import { DateTime } from "luxon";
 
-import UpgradeHelper from "@11ty/eleventy-upgrade-help";
-
 import { EleventyI18nPlugin } from "@11ty/eleventy";
 
 export default function (eleventyConfig) {    // Set custom directories for input, output, includes, and data
@@ -32,8 +30,6 @@ export default function (eleventyConfig) {    // Set custom directories for inpu
         defaultLanguage: "en",
         errorMode: "allow-fallback"
     });
-
-    eleventyConfig.addPlugin(UpgradeHelper);
 
     ['src/assets/css', 'src/assets/images', 'src/assets/js', 'src/files', 'src/admin'].forEach(path =>
         eleventyConfig.addCollection(path)
