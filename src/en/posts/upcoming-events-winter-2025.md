@@ -18,10 +18,10 @@ The next HSA Meetings are scheduled for:
 
 - Krispy Kreme Fundraiser, start date: January 16th
 - Bake Sale during Report Card Conferences
-    <p>Thursday, January 30th at 1pm & Friday, January 31st at 1pm
-    2 volunteers needed for each day<p>
+    - Thursday, January 30th at 1pm & Friday, January 31st at 1pm
+    - 2 volunteers needed for each day
 
-### Open Houses
+### Open House
 
 The HSA will also be holding an Open House on Thursday, January 23rd at 9am.
 
