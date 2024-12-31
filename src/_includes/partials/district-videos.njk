@@ -1,0 +1,8 @@
+
+{% for video in videos %}
+<span style="display: block">
+<ul>
+    <li><a href="https://youtube.com/watch?v={{ video.video_id }}"><img src="{{ video.thumbnail_url }}"> {{ video.title }}</a></li>
+</ul>
+</span>
+{% endfor %}
