@@ -18,11 +18,9 @@ lang: en
 
 ## Recent posts
 
-<ul>
-    {% set recentPosts = collections.posts | reverse %}
-    {% for post in recentPosts.slice(0,5) %}
-        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-    {% endfor %}
-</ul>
+{% set recentPosts = collections.posts | reverse %}
+{% for post in recentPosts.slice(0,5) %}
+   * [{{ post.data.title }}]({{ post.url | locale_url }})
+{% endfor %}
 
-#### [Read more]({{ '/pages/newsletter-archive' | locale_url }})
+#### [Read more...]({{ '/pages/newsletter-archive' | locale_url }})
