@@ -6,18 +6,23 @@ lang: en
 
 # Sign up for our newsletter!
 
-[Subscribe here!](https://buttondown.com/gwchildshsa#subscribe-form)
+[Subscribe here](https://buttondown.com/gwchildshsa#subscribe-form) to updates on the following and more!
 
-## Project Updates
+<span class="image right">![](/assets/images/IMG_7072.jpeg)</span>
 
-Find out about ongoing projects and recent updates.
+- Project Updates
+- Requests of the Community
+- Meeting Notes
 
-## Requests of the Community
+*Looking to get involved? [Contact us]({{ '/pages/contact/' | locale_url }}) to find out how you can volunteer.*
 
-Looking to get involved? [Contact us]({{ '/pages/contact/' | locale_url }}) to find out how you can volunteer.
+## Recent posts
 
-## Meeting Notes
+<ul>
+    {% set recentPosts = collections.posts | reverse %}
+    {% for post in recentPosts.slice(0,5) %}
+        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    {% endfor %}
+</ul>
 
-Find our meeting notes from our monthly HSA meetings. All are welcome!
-
-## [Read more]({{ '/pages/newsletter-archive' | locale_url }})
+#### [Read more]({{ '/pages/newsletter-archive' | locale_url }})

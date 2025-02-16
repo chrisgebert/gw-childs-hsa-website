@@ -1,0 +1,27 @@
+---
+title: Fundraising
+layout: layouts/page.njk
+lang: en
+---
+
+# Fundraising
+We are committed to providing a great educational experience and we invite you to be a part of this commitment through out fundraising initiatives.
+
+## Why Fundraising Matters
+
+<span class="image right">![](/assets/images/childs_capital_projects_1.jpg)</span>
+Funds raised play a crucial role in enhancing resources, activities, and overall school improvements. By contributing, you have a direct impact on the quality of education and opportunities available at G.W. Childs.
+
+### How You Can Help
+1. **Donate:** Every donation, big or small, makes a difference. Your financial support enables us to invest in tools, technology, and programs that benefit all students.
+2. **Attend Fundraising Events:** Join us for events that not only raise funds for the school but also build a sense of community. Your participation in these events improves our fundraising efforts and leads to positive experiences for everyone.
+3. **Volunteer Your Time:** Your time and skills are invaluable. Join our dedicated team of volunteers to organize and execute fundraising activities. Whether you're coordinating events or reaching out to local businesses for sponsorships, your efforts contribute significantly.
+
+*Check our [Events page]({{'/pages/events/' | locale_url }}) or sign up for [our newsletter]({{'/pages/newsletter/' | locale_url }}) to find out about upcoming fundraising events!*
+
+## Corporate Sponsorship Opportunities
+
+Local businesses interested in supporting education and community development are encouraged. Partner with G.W. Childs to make a lasting impact on the future of our community.
+
+## Get Involved Today
+[Contact us]({{ '/pages/contact/' | locale_url }}) to learn more!
