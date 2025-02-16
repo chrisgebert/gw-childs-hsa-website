@@ -8,7 +8,7 @@ lang: en
 
 [Subscribe here](https://buttondown.com/gwchildshsa#subscribe-form) to updates on the following and more!
 
-<span class="image right">![](/assets/images/IMG_7072.jpeg)</span>
+<span class="image right"><img src="/assets/images/IMG_7072.jpeg"></span>
 
 - Project Updates
 - Requests of the Community
