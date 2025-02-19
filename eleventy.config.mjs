@@ -31,7 +31,7 @@ export default function (eleventyConfig) {    // Set custom directories for inpu
         errorMode: "allow-fallback"
     });
 
-    eleventyConfig.addPassthroughCopy("assets/images");
+    eleventyConfig.addPassthroughCopy("src/assets/images");
 
     ['src/assets/css', 'src/assets/images', 'src/assets/js', 'src/files', 'src/admin'].forEach(path =>
         eleventyConfig.addCollection(path)
@@ -44,6 +44,9 @@ export default function (eleventyConfig) {    // Set custom directories for inpu
             "html",
             "liquid",
             "11ty.js",
+            "jpg",
+            "jpeg",
+            "png",
         ],
 
         markdownTemplateEngine: "njk",
