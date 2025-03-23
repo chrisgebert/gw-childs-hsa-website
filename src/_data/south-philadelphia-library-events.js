@@ -1,7 +1,5 @@
 import Fetch from "@11ty/eleventy-fetch";
 
-import * as parser from "fast-xml-parser";
-
 export default async function () {
     let url = "https://libwww.freelibrary.org/rss/eventsrss.cfm?type=&series=&location=&department=&age=School%20Age";
 
