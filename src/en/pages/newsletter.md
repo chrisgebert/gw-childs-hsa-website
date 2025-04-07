@@ -6,7 +6,7 @@ lang: en
 
 # Sign up for our newsletter!
 
-[Subscribe here](https://buttondown.com/gwchildshsa#subscribe-form) to updates on the following and more!
+[Subscribe here](https://buttondown.com/gwchildshsa/archive/) to updates on the following and more!
 
 <div class="image right"><img src="/assets/images/IMG_7072.jpg"></div>
 
