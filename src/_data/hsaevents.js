@@ -2,8 +2,9 @@ import Fetch from "@11ty/eleventy-fetch";
 
 const CALENDAR_ID = 'gwchildshsa@gmail.com';
 const API_KEY = process.env.GOOGLE_API_KEY;
+const TIME_MIN = new Date().toISOString();
 
-const url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}&singleEvents=true&orderBy=startTime`;
+const url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}&timeMin=${TIME_MIN}&singleEvents=true&orderBy=startTime`;
 
 export default async function () {
   try {
@@ -12,7 +13,7 @@ export default async function () {
       type: "json",
     });
 
-    return json;
+    return json.items;
   } catch (error) {
     console.error("Failed to fetch calendar:", error);
     return [];

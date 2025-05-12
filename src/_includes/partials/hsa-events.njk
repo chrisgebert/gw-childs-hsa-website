@@ -1,0 +1,7 @@
+<ul>
+{% for event in hsaevents %}
+    <li>
+        <p> {{ event.start.dateTime | dateFormat("MMMM d, yyyy") }}: {{ event.summary }} </p>
+    </li>
+{% endfor %}
+</ul>
