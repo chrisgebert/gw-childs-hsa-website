@@ -1,5 +1,9 @@
 import Fetch from "@11ty/eleventy-fetch";
 
+import dotenv from "dotenv";
+
+dotenv.config();
+
 const CALENDAR_ID = 'gwchildshsa@gmail.com';
 const API_KEY = process.env.GOOGLE_API_KEY;
 const TIME_MIN = new Date().toISOString();
