@@ -1,0 +1,8 @@
+<ul>
+    {% for proposal in donorschoose %}
+        <li>
+            <a href="{{ proposal.proposalURL }}">{{ proposal.title }}</a>: ${{ proposal.costToComplete }} needed by {{ proposal.expirationDate }}
+        </li>
+
+    {% endfor %}
+</ul>

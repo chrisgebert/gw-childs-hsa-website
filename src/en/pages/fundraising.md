@@ -19,6 +19,10 @@ Funds raised play a crucial role in enhancing resources, activities, and overall
 
 *Check our [Events page]({{'/pages/events/' | locale_url }}) or sign up for [our newsletter]({{'/pages/newsletter/' | locale_url }}) to find out about upcoming fundraising events!*
 
+### Active Projects on Donors Choose for Our School
+
+{% include "partials/proposals.njk" %}
+
 ## Corporate Sponsorship Opportunities
 
 Local businesses interested in supporting education and community development are encouraged. Partner with G.W. Childs to make a lasting impact on the future of our community.
