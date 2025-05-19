@@ -19,7 +19,7 @@ Funds raised play a crucial role in enhancing resources, activities, and overall
 
 *Check our [Events page]({{'/pages/events/' | locale_url }}) or sign up for [our newsletter]({{'/pages/newsletter/' | locale_url }}) to find out about upcoming fundraising events!*
 
-### Active Projects on Donors Choose for Our School
+### Active Projects on [Donors Choose](https://www.donorschoose.org/schools/pennsylvania/philadelphia-city-school-district/george-w-childs-elementary-school/90738) for Our School
 
 {% include "partials/proposals.njk" %}
 
