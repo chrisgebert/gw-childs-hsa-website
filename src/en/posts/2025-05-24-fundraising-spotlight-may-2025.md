@@ -32,7 +32,7 @@ Here are seven funding requests that could use your support:
 
 See all DonorsChoose projects here:
 
-[[https://www.donorschoose.org/donors/search.html?school=90738](https://www.donorschoose.org/donors/search.html?school=90738)
+[https://www.donorschoose.org/donors/search.html?school=90738](https://www.donorschoose.org/donors/search.html?school=90738)
 
 ## Make a Difference
 
