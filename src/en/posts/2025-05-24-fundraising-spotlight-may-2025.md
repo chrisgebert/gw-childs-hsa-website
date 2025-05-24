@@ -30,9 +30,9 @@ Here are seven funding requests that could use your support:
 [https://www.donorschoose.org/project/jump-start-for-the-year/9292669/]([https://www.donorschoose.org/project/jump-start-for-the-year/9292669/)
 
 
-See all DonorsChoose projects here 
+See all DonorsChoose projects here:
 
-[](https://www.donorschoose.org/donors/search.html?school=90738)
+[[https://www.donorschoose.org/donors/search.html?school=90738](https://www.donorschoose.org/donors/search.html?school=90738)
 
 ## Make a Difference
 
