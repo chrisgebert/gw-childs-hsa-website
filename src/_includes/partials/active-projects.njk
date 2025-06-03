@@ -1,0 +1,91 @@
+{# active-projects.njk - Partial for improved Active Projects section #}
+{# Use Eleventy filters to find urgent and popular projects from DonorsChoose API response #}
+{% set urgentProject = donorsChoose | findUrgentProject %}
+{% set popularProject = donorsChoose | findPopularProject %}
+
+<section class="active-projects">
+  <h2 class="section-title">Urgent Classroom Needs - Help Teachers Today</h2>
+
+  {# Featured urgent project #}
+  {% if urgentProject %}
+  <div class="urgent-project">
+    <div class="urgent-badge">🔥 ENDING SOON</div>
+    <h3>{{ urgentProject.title }}</h3>
+    <p class="urgent-details">
+      <strong>{{ urgentProject.title }}</strong> needed by {{ urgentProject.expirationDate | date('MMM Do') }} - 
+      Only <strong>${{ urgentProject.costToComplete }}</strong> left!
+    </p>
+    <a href="{{ urgentProject.fundURL }}" class="btn btn-urgent" target="_blank" rel="noopener">
+      FUND THIS PROJECT
+    </a>
+  </div>
+  {% endif %}
+
+  {# Most popular project #}
+  {% if popularProject %}
+  <div class="popular-project">
+    <h3><strong>Most Popular:</strong> {{ popularProject.title }}</h3>
+    <p class="popular-details">
+      ${{ popularProject.costToComplete }} funds an entire project
+    </p>
+    <a href="{{ popularProject.fundURL }}" class="btn btn-primary" target="_blank" rel="noopener">
+      CHOOSE YOUR PROJECT
+    </a>
+  </div>
+  {% endif %}
+
+  {# All projects summary #}
+  <div class="all-projects-link">
+    <p>
+      <em>See all {{ donorsChooseData.totalProposals }} active projects on
+      <a href="https://www.donorschoose.org/donors/search.html?school=90738" target="_blank" rel="noopener">DonorsChoose →</a></em>
+    </p>
+  </div>
+
+  {# Optional: Show additional projects if needed #}
+  {% if showMoreProjects and donorsChooseData.proposals %}
+  <div class="additional-projects">
+    <h3>Other Ways to Help</h3>
+    <div class="projects-grid">
+      {% for project in donorsChooseData.proposals | slice(0, 4) %}
+        {% if project != urgentProject and project != popularProject %}
+        <div class="project-card">
+          <h4>{{ project.title }}</h4>
+          <div class="project-details">
+            <span class="amount-needed">${{ project.costToComplete }} needed</span>
+            <span class="deadline">by {{ project.expirationDate | date('MMM Do') }}</span>
+          </div>
+          <div class="project-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: {{ project.percentFunded }}%"></div>
+            </div>
+            <span class="progress-text">{{ project.percentFunded }}% funded</span>
+          </div>
+          <a href="{{ project.fundURL }}" class="btn btn-secondary" target="_blank" rel="noopener">
+            Support This Project
+          </a>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {# Optional: Full project list for fallback #}
+  {% if showFullList %}
+  <div class="projects-grid">
+    {% for project in donorschoose %}
+    <div class="project-card">
+      <h4>{{ project.title }}</h4>
+      <div class="project-details">
+        <span class="amount-needed">${{ project.costToComplete }} needed</span>
+        <span class="deadline">by {{ project.expirationDate | date('MMM Do') }}</span>
+      </div>
+      <a href="{{ project.proposalURL }}" class="btn btn-secondary" target="_blank" rel="noopener">
+        Support This Project
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>

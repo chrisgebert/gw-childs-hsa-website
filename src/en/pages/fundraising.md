@@ -19,13 +19,15 @@ Funds raised play a crucial role in enhancing resources, activities, and overall
 
 *Check our [Events page]({{'/pages/events/' | locale_url }}) or sign up for [our newsletter]({{'/pages/newsletter/' | locale_url }}) to find out about upcoming fundraising events!*
 
-### Active Projects on [Donors Choose](https://www.donorschoose.org/schools/pennsylvania/philadelphia-city-school-district/george-w-childs-elementary-school/90738) for Our School
-
-{% include "partials/proposals.njk" %}
+{% include "partials/active-projects.njk" %}
 
 ## Corporate Sponsorship Opportunities
 
-Local businesses interested in supporting education and community development are encouraged. Partner with G.W. Childs to make a lasting impact on the future of our community.
+* Gold Sponsor ($1,000): Logo on all events + newsletter mention
+* Silver Sponsor ($500): Logo on website + social media recognition
+* Bronze Sponsor ($250): Name listed at school events
+
+Contact [gwchildshsa@gmail.com]('mailto:gwchildshsa.gmail.com') for partnership details.
 
 ## Get Involved Today
 [Contact us]({{ '/pages/contact/' | locale_url }}) to learn more!
