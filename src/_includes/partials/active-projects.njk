@@ -1,7 +1,7 @@
 {# active-projects.njk - Partial for improved Active Projects section #}
 {# Use Eleventy filters to find urgent and popular projects from DonorsChoose API response #}
-{% set urgentProject = donorsChoose | findUrgentProject %}
-{% set popularProject = donorsChoose | findPopularProject %}
+{% set urgentProject = donorschoose | findUrgentProject %}
+{% set popularProject = donorschoose | findPopularProject %}
 
 <section class="active-projects">
   <h2 class="section-title">Urgent Classroom Needs - Help Teachers Today</h2>
