@@ -8,5 +8,5 @@ export default async function () {
         type: "json",
     });
 
-    return json.proposals;
+    return json;
 };
