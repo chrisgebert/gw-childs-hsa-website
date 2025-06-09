@@ -38,11 +38,11 @@
   <!-- Manual payment instructions -->
   <div class="manual-instructions">
     <details>
-      <summary>Manual Donation Instructions</summary>
+      <summary><em>Manual Donation Instructions</em></summary>
       <ol>
         <li>Open the Venmo app on your phone</li>
         <li>Search for: <strong>@{{ venmoUsername }}</strong></li>
-        {% if amount %}<li>Enter amount: <strong>${{ amount }}</strong></li>{% endif %}
+        {%- if amount %}<li>Enter amount: <strong>${{ amount }}</strong></li>{% endif %}
         {% if description %}<li>Add note: <strong>{{ description }}</strong></li>{% endif %}
         <li>Send donation</li>
       </ol>

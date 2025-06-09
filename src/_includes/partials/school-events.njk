@@ -1,5 +1,5 @@
 {% for event in events | futureEvents %}
-    * {{ event.date | dateFormat("MMMM d, yyyy") }}: {{ event.event }}
+- {{ event.date | dateFormat("MMMM d, yyyy") }}: {{ event.event }} <br/>
 {% endfor %}
 
 {% if (events | futureEvents).length === 0 %}

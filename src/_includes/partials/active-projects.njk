@@ -4,13 +4,13 @@
 {% set popularProject = donorschoose | findPopularProject %}
 
 <section class="active-projects">
-  <h2 class="section-title">Urgent Classroom Needs - Help Teachers Today</h2>
+  <h3 class="section-title">Classroom Needs from Donors Choose</h3>
 
   {# Featured urgent project #}
   {% if urgentProject %}
   <div class="urgent-project">
     <div class="urgent-badge">🔥 ENDING SOON</div>
-    <h3>{{ urgentProject.title }}</h3>
+    <h4>{{ urgentProject.title }}</h4>
     <p class="urgent-details">
       <strong>{{ urgentProject.title }}</strong> needed by {{ urgentProject.expirationDate | date('MMM Do') }} - 
       Only <strong>${{ urgentProject.costToComplete }}</strong> left!
@@ -22,15 +22,15 @@
   {% endif %}
 
   {# Most popular project #}
-  {% if popularProject %}
+  {%- if popularProject %}
   <div class="popular-project">
-    <h3><strong>Most Popular:</strong> {{ popularProject.title }}</h3>
+    <h4><strong>Most Popular:</strong> {{ popularProject.title }}</h4>
     <p class="popular-details">
-      ${{ popularProject.costToComplete }} funds an entire project
-    </p>
+      ${{ popularProject.costToComplete }} funds an entire project  ➡️  
     <a href="{{ popularProject.fundURL }}" class="btn btn-primary" target="_blank" rel="noopener">
-      CHOOSE YOUR PROJECT
+      SUPPORT THIS PROJECT
     </a>
+    </p>
   </div>
   {% endif %}
 
@@ -45,7 +45,7 @@
   {# Optional: Show additional projects if needed #}
   {% if showMoreProjects and donorsChooseData.proposals %}
   <div class="additional-projects">
-    <h3>Other Ways to Help</h3>
+    <h4>Other Ways to Help</h4>
     <div class="projects-grid">
       {% for project in donorsChooseData.proposals | slice(0, 4) %}
         {% if project != urgentProject and project != popularProject %}

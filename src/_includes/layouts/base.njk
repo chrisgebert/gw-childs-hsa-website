@@ -18,10 +18,9 @@
 
   <body>
   <!-- Header -->
-  <header id="header"><a href="{{'/' | url}}" class="logo"><strong>{{ title }}</strong></a>
-				<nav>
-          <a href="#menu">Menu</a>
-				</nav>
+  <header id="header">
+    <a href="{{ '/' | locale_url }}" class="logo"><strong>{{ title }}</strong></a>
+		<nav><a href="#menu">Menu</a></nav>
 	</header>
 	<!-- Nav -->
   {% include "partials/_navigation.njk" %}
