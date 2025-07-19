@@ -12,7 +12,7 @@
     <div class="urgent-badge">🔥 ENDING SOON</div>
     <h4>{{ urgentProject.title }}</h4>
     <p class="urgent-details">
-      <strong>{{ urgentProject.title }}</strong> needed by {{ urgentProject.expirationDate | date('MMM Do') }} - 
+      <strong>{{ urgentProject.title }}</strong> needed by {{ urgentProject.expirationDate }} - 
       Only <strong>${{ urgentProject.costToComplete }}</strong> left!
     </p>
     <a href="{{ urgentProject.fundURL }}" class="btn btn-urgent" target="_blank" rel="noopener">
@@ -26,7 +26,7 @@
   <div class="popular-project">
     <h4><strong>Most Popular:</strong> {{ popularProject.title }}</h4>
     <p class="popular-details">
-      ${{ popularProject.costToComplete }} funds an entire project  ➡️  
+      ${{ popularProject.costToComplete }} funds an entire project  ➡️ 
     <a href="{{ popularProject.fundURL }}" class="btn btn-primary" target="_blank" rel="noopener">
       SUPPORT THIS PROJECT
     </a>
@@ -53,7 +53,7 @@
           <h4>{{ project.title }}</h4>
           <div class="project-details">
             <span class="amount-needed">${{ project.costToComplete }} needed</span>
-            <span class="deadline">by {{ project.expirationDate | date('MMM Do') }}</span>
+            <span class="deadline">by {{ project.expirationDate }}</span>
           </div>
           <div class="project-progress">
             <div class="progress-bar">
@@ -79,7 +79,7 @@
       <h4>{{ project.title }}</h4>
       <div class="project-details">
         <span class="amount-needed">${{ project.costToComplete }} needed</span>
-        <span class="deadline">by {{ project.expirationDate | date('MMM Do') }}</span>
+        <span class="deadline">by {{ project.expirationDate }}</span>
       </div>
       <a href="{{ project.proposalURL }}" class="btn btn-secondary" target="_blank" rel="noopener">
         Support This Project
