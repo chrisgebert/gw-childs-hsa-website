@@ -10,7 +10,7 @@ lang: en
 
 {% include "partials/school-events.njk" %}
 
-## HSA Calendar
+## HSA Calendar [(ICS)](https://calendar.google.com/calendar/ical/gwchildshsa%40gmail.com/public/basic.ics)
 
 {% include "partials/hsa-events.njk" %}
 
