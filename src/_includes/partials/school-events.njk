@@ -1,7 +1,7 @@
-{% for event in events | futureEvents %}
+{% for event in schoolCalendar | futureEvents %}
 - {{ event.date | dateFormat("MMMM d, yyyy") }}: {{ event.event }} <br/>
 {% endfor %}
 
-{% if (events | futureEvents).length === 0 %}
+{% if (schoolCalendar | futureEvents).length === 0 %}
     No upcoming events in the next 3 months.
 {% endif %}

@@ -29,6 +29,8 @@ Funds raised play a crucial role in enhancing resources, activities, and overall
 
 {% include "components/venmo-payment-button.njk" %}
 
+---
+
 {% include "partials/active-projects.njk" %}
 
 ## Corporate Sponsorship Opportunities

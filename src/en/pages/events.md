@@ -16,7 +16,7 @@ lang: en
 
 ## District Calendar
 
-2024-2025 Academic Calendar: [https://www.philasd.org/calendar/](https://www.philasd.org/calendar/)
+2025-2026 Academic Calendar: [https://www.philasd.org/calendar/](https://www.philasd.org/calendar/)
 
-2024-2025 Cultural Calendar: [https://www.philasd.org/calendar/#culturalcal](https://www.philasd.org/calendar/#culturalcal)
+2025-2026 Cultural Calendar: [https://www.philasd.org/calendar/#culturalcal](https://www.philasd.org/calendar/#culturalcal)
 
