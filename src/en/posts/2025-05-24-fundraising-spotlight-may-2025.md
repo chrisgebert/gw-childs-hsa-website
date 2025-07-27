@@ -12,7 +12,7 @@ Here are seven funding requests that could use your support:
 
 #### Current Projects
 
-**Fresh as a Daisy**- Dr. Fry needs $172 for hygiene supplies to help students stay clean, healthy, and safe. [https://www.donorschoose.org/project/fresh-as-a-daisy/9352003/](https://www.donorschoose.org/project/fresh-as-a-daisy/9352003/)
+**Fresh as a Daisy** - Dr. Fry needs $172 for hygiene supplies to help students stay clean, healthy, and safe. [https://www.donorschoose.org/project/fresh-as-a-daisy/9352003/](https://www.donorschoose.org/project/fresh-as-a-daisy/9352003/)
 
 **Help Us Put the Food Away** - Mrs. Lopez is seeking $141 for supplies to support weekly food activities that teach nutrition and organization. [https://www.donorschoose.org/project/help-us-put-the-food-away/9276864/](https://www.donorschoose.org/project/help-us-put-the-food-away/9276864/)
 
