@@ -1,0 +1,41 @@
+name: Scheduled Netlify Build
+
+on:
+  schedule:
+    # Runs every day at midnight UTC
+    - cron: '0 0 1,7,14,21,28 * *'
+  workflow_dipatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Netlify Build
+        id: netlify-build
+        run: |
+          RESPONSE=$(curl -k -s -o response.txt -w "%{http_code}" -X POST -d {} ${{ secrets.NETLIFY_BUILD_HOOK }})
+          if [ "$RESPONSE" -eq 200 ] || [ "$RESPONSE" -eq 201 ]; then
+            echo "build_status=success" >> $GITHUB_OUTPUT
+            echo "Netlify build triggered successfully"
+          else
+            echo "build_status=failure" >> $GITHUB_OUTPUT
+            echo "Failed to trigger Netlify build. Response code: $RESPONSE"
+            cat response.txt
+            exit 1
+          fi
+
+      - name: Send ntfy notification
+        if: always()
+        run: |
+          if [ "${{ job.status }}" == "success" ]; then
+            curl -d "Website deployed successfully from commit ${{ github.sha }}" \
+                -H "Title: Deployment Success" \
+                -H "Tags: white_check_mark,rocket" \
+                https://ntfy.sh/D75pkqUhyfzemKLu
+          else
+            curl -d "Website deployment failed. Check the logs." \
+                -H "Title: Deployment Failed" \
+                -H "Tags:x,warning" \
+                -H "Priority: high" \
+                https://ntfy.sh/D75pkqUhyfzemKLu
+          fi
