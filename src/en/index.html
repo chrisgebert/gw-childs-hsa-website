@@ -2,8 +2,10 @@
 <html>
 		<head>
 			<title>G.W. Childs HSA</title>
-			<meta charset="utf-8"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-			<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="{{'/assets/css/main.css' | url}}">
+			<meta charset="utf-8">
+			<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
 		</head>
 		<body>
 		<!-- Header -->
@@ -60,6 +62,7 @@
 						<ul class="actions">
 							<li><a href="{{ '/pages/events/' | locale_url }}" class="button alt">Read More</a></li>
 						</ul>
+						{% include "partials/hsa-events.njk" %}
 					</div>
 					<div class="postnav">
 						<a href="#one" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
@@ -70,7 +73,7 @@
 			<!-- Three -->
 			 <article id="three" class="post style2">
 				<div class="image">
-					<img src="{{'/assets/images/childs_playspace_2.jpg' | url}}" alt="" data-position="80% center" width="1400" height="788">
+					<img src="{{ '/assets/images/childs_playspace_2.jpg' | url }}" alt="" data-position="80% center" width="1400" height="788">
 				</div>
 				<div class="content">
 					<div class="inner">
@@ -78,9 +81,7 @@
 						<!--	<p class="info">3 days ago by <a href="#">Jane Doe</a></p> -->
 						</header>
 						<p>Have a direct impact on the experience and education of students at G.W. Childs! </p>
-						<ul class="actions">
-							<li><a href="{{ '/pages/fundraising/' | locale_url }}" class="button alt">Read More</a></li>
-						</ul>
+						<!-- {% include "partials/active-projects.njk" %} -->
 					</div>
 					<div class="postnav">
 						<a href="#two" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
@@ -91,7 +92,7 @@
 			<!-- Four -->
 			<article id="four" class="post invert style2 alt">
 				<div class="image">
-					<img src="{{'/assets/images/5AB75905-8BC8-4D8A-B5BA-40284B9BC202_1_105_c.jpeg' | url}}" alt="" data-position="60% center" width="1400" height="788">
+					<img src="{{ '/assets/images/5AB75905-8BC8-4D8A-B5BA-40284B9BC202_1_105_c.jpeg' | url }}" alt="" data-position="60% center" width="1400" height="788">
 				</div>
 				<div class="content">
 					<div class="inner">
@@ -112,16 +113,19 @@
 			<!-- Five -->
 			<article id="five" class="post style3">
 				<div class="image">
-					<img src="{{'/assets/images/IMG_6056.jpeg' | url}}" alt="" data-position="5% center" width="1400" height="768">
+					<img src="{{ '/assets/images/IMG_6056.jpeg' | url }}" alt="" data-position="5% center" width="1400" height="768">
 				</div>
 				<div class="content">
 					<div class="inner">
 						<header><h2><a href="{{ '/pages/newsletter' | locale_url }}">Newsletter</a></h2>
 							<!-- <p class="info">3 days ago by <a href="#">Jane Doe</a></p> -->
 						</header>
-						<p>Sign up for our community newsletter!</p>
-						<ul class="actions">
-							<li><a href="{{ '/pages/newsletter' | locale_url }}" class="button alt">Read More</a></li>
+						<p>Sign up for our HSA newsletter!</p>
+						{% set recentPosts = collections.posts | reverse %}
+						<ul>
+							{% for post in recentPosts.slice(0,3) -%}
+						  <li><a href="{{ '/post.url | locale_url' }}">{{ post.data.title }}</a></li>
+						{% endfor %}
 						</ul>
 					</div>
 					<div class="postnav">
