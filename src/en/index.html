@@ -59,10 +59,11 @@
 							<!-- <p class="info">3 days ago by <a href="#">Jane Doe</a></p> -->
 						</header>
 						<p>Find out about HSA and school events!</p>
-						<ul class="actions">
-							<li><a href="{{ '/pages/events/' | locale_url }}" class="button alt">Read More</a></li>
+						<ul>
+						{% for event in hsaevents %}
+							<li>{{ event.start.dateTime | dateFormat("MMMM d, yyyy") }}: {{ event.summary }}</li>
+						{% endfor %}
 						</ul>
-						{% include "partials/hsa-events.njk" %}
 					</div>
 					<div class="postnav">
 						<a href="#one" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
