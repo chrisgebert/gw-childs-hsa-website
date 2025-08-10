@@ -18,6 +18,6 @@ Chalk the Walk event on Sunday, August 24th, 9am-12pm. Help us decorate and make
 
 And most importantly, First Day Welcome Back Students on Monday, August 25th.
 
-Join us to meet other parents, get to know our community, and share your 
+Join us to meet other parents, get to know our community, and share your ideas.
 
 Find all HSA events on the HSA's [Events](/en/pages/events) page and on our public Google calendar: [https://calendar.google.com/calendar/u/0/embed?src=gwchildshsa@gmail.com&ctz=America/New_York](https://calendar.google.com/calendar/u/0/embed?src=gwchildshsa@gmail.com&ctz=America/New_York)
