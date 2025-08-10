@@ -32,7 +32,7 @@ Subscribe for updates on the following and more!
 ## Recent posts
 
 {% set recentPosts = collections.posts | reverse %}
-{% for post in recentPosts.slice(0,5) -%}
+{% for post in recentPosts.slice(0,15) -%}
   * [{{ post.data.title }}]({{ post.url | locale_url }}) <br />
 {% endfor %}
 
