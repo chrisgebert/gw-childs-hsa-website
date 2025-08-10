@@ -10,10 +10,8 @@
 		<body>
 		<!-- Header -->
 			<header id="header"><a href="{{ '/' | locale_url }}" class="logo"><strong>G.W. Childs HSA</strong></a>
-				<nav><a href="#menu">Menu</a>
-				</nav>
+				<nav><a href="#menu">Menu</a></nav>
 			</header>
-			<!-- Nav -->
 
 			{% include 'partials/_navigation.njk' %}
 
@@ -55,10 +53,10 @@
 				</div>
 				<div class="content">
 					<div class="inner">
-						<header><h2><a href="{{ '/pages/events/' | locale_url }}">Events</a></h2>
+						<header><h2><a href="{{ '/pages/events/' | locale_url }}">Upcoming Events</a></h2>
 							<!-- <p class="info">3 days ago by <a href="#">Jane Doe</a></p> -->
 						</header>
-						<p>Find out about HSA and school events!</p>
+						<p>Find out about our upcoming HSA and school events!</p>
 						<ul>
 						{% for event in hsaevents %}
 							<li>{{ event.start.dateTime | dateFormat("MMMM d, yyyy") }}: {{ event.summary }}</li>
