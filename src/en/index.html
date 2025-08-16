@@ -80,7 +80,21 @@
 						<!--	<p class="info">3 days ago by <a href="#">Jane Doe</a></p> -->
 						</header>
 						<p>Have a direct impact on the experience and education of students at G.W. Childs! </p>
-						<!-- {% include "partials/active-projects.njk" %} -->
+						{% if donorschoose.proposals and donorschoose.proposals.length > 0 %}
+							{% set shuffled = donorschoose.proposals | shuffle %}
+							<ul>
+							{% for proposal in shuffled %}
+								{% if loop.index <= 4 %}
+									<li>
+										<a href="{{ proposal.proposalURL }}" target="_blank" rel="noopener">
+											{{ proposal.title | safe }}
+										</a>
+										<small> - {{ proposal.percentFunded }}% funded, ${{ proposal.costToComplete }} needed</small>
+									</li>
+								{% endif %}
+							{% endfor %}
+							</ul>
+						{% endif %}
 					</div>
 					<div class="postnav">
 						<a href="#two" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
@@ -126,6 +140,17 @@
 						  <li><a href="{{ '/post.url | locale_url' }}">{{ post.data.title }}</a></li>
 						{% endfor %}
 						</ul>
+					<form
+  						action="https://buttondown.com/api/emails/embed-subscribe/gwchildshsa"
+  						method="post"
+  						target="popupwindow"
+  						onsubmit="window.open('https://buttondown.com/gwchildshsa', 'popupwindow')"
+  						class="embeddable-buttondown-form"
+					>
+  					<label for="bd-email">Enter your email</label>
+					  <input type="email" name="email" id="bd-email" />
+  						<input type="submit" value="Subscribe" />
+					</form>
 					</div>
 					<div class="postnav">
 						<a href="#four" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>

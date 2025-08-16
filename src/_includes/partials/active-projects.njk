@@ -1,4 +1,3 @@
-{# active-projects.njk - Partial for improved Active Projects section #}
 {# Use Eleventy filters to find urgent and popular projects from DonorsChoose API response #}
 {% set urgentProject = donorschoose | findUrgentProject %}
 {% set popularProject = donorschoose | findPopularProject %}
@@ -9,8 +8,7 @@
   {# Featured urgent project #}
   {% if urgentProject %}
   <div class="urgent-project">
-    <div class="urgent-badge">🔥 ENDING SOON</div>
-    <h4>{{ urgentProject.title }}</h4>
+    <h4>🔥 <strong>ENDING SOON:</strong> {{ urgentProject.title }}</h4>
     <p class="urgent-details">
       Only <strong>${{ urgentProject.costToComplete }}</strong> needed by {{ urgentProject.expirationDate | dateFormat("MMMM d, yyyy") }} <br />
        ➡️
@@ -25,7 +23,7 @@
     <h4><strong>Most Popular:</strong> {{ popularProject.title }}</h4>
     <p class="popular-details">
       <strong>${{ popularProject.costToComplete }}</strong> funds an entire project  <br />
-      ➡️ 
+      ➡️
     <a href="{{ popularProject.fundURL }}" class="btn btn-primary" target="_blank" rel="noopener">SUPPORT THIS PROJECT</a>
     </p>
   </div>
@@ -34,17 +32,17 @@
   {# All projects summary #}
   <div class="all-projects-link">
     <p>
-      <em>See all {{ donorsChooseData.totalProposals }} active projects on
+      <em>See all {{ donorschoose.totalProposals }} active projects on
       <a href="https://www.donorschoose.org/donors/search.html?school=90738" target="_blank" rel="noopener">DonorsChoose →</a></em>
     </p>
   </div>
 
   {# Optional: Show additional projects if needed #}
-  {% if showMoreProjects and donorsChooseData.proposals %}
+  {% if showMoreProjects and donorschoose.proposals %}
   <div class="additional-projects">
     <h4>Other Ways to Help</h4>
     <div class="projects-grid">
-      {% for project in donorsChooseData.proposals | slice(0, 4) %}
+      {% for project in donorschoose.proposals | slice(0, 4) %}
         {% if project != urgentProject and project != popularProject %}
         <div class="project-card">
           <h4>{{ project.title }}</h4>

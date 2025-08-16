@@ -28,7 +28,7 @@ export default function (eleventyConfig) {    // Set custom directories for inpu
 
       // Filter to find the most urgent project (ending soonest with reasonable funding need)
     eleventyConfig.addFilter("findUrgentProject", function(apiResponse) {
-        if (!apiResponse || !apiResponse.proposals || apiResponse.proposals.length === 0) return null;
+        if (!apiResponse || apiResponse.length === 0) return null;
 
         const proposals = apiResponse.proposals;
         const now = new Date();
@@ -52,7 +52,7 @@ export default function (eleventyConfig) {    // Set custom directories for inpu
 
     // Filter to find the most popular/accessible project (lowest amount needed)
     eleventyConfig.addFilter("findPopularProject", function(apiResponse) {
-        if (!apiResponse || !apiResponse.proposals || apiResponse.proposals.length === 0) return null;
+        if (!apiResponse || apiResponse.length === 0) return null;
 
         const proposals = apiResponse.proposals;
 
@@ -84,7 +84,7 @@ export default function (eleventyConfig) {    // Set custom directories for inpu
 
     // Filter to get projects by urgency level
     eleventyConfig.addFilter("projectsByUrgency", function(apiResponse) {
-        if (!donorschoose || !apiResponse.proposals || apiResponse.proposals.length === 0) return [];
+        if (!donorschoose || apiResponse.length === 0) return [];
 
         const proposals = apiResponse.proposals;
         const now = new Date();
@@ -133,6 +133,24 @@ export default function (eleventyConfig) {    // Set custom directories for inpu
     // Filter to get project URL for easy linking
     eleventyConfig.addFilter("projectUrl", function(project) {
         return project.proposalURL || project.fundURL || '#';
+    });
+
+    eleventyConfig.addFilter("shuffle", function(array) {
+        console.log("Shuffle filter called with:", typeof array, Array.isArray(array));
+        
+        if (!Array.isArray(array)) {
+            console.warn("Shuffle filter received non-array", array);
+            return array;
+        }
+
+        const shuffled = [...array]; // Create a copy
+        
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+
+        return shuffled;
     });
 
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
