@@ -1,0 +1,785 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//School Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:School Calendar 2025-2026
+X-WR-TIMEZONE:America/New_York
+
+BEGIN:VEVENT
+UID:20250818-staff-pd@schoolcalendar.com
+DTSTART;VALUE=DATE:20250818
+SUMMARY:First Day Staff / Professional Development
+DESCRIPTION:First Day Staff / Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250819-pd@schoolcalendar.com
+DTSTART;VALUE=DATE:20250819
+SUMMARY:Professional Development
+DESCRIPTION:Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250820-pd@schoolcalendar.com
+DTSTART;VALUE=DATE:20250820
+SUMMARY:Professional Development
+DESCRIPTION:Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250821-pd@schoolcalendar.com
+DTSTART;VALUE=DATE:20250821
+SUMMARY:Professional Development
+DESCRIPTION:Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250822-reorg@schoolcalendar.com
+DTSTART;VALUE=DATE:20250822
+SUMMARY:Reorganization Day
+DESCRIPTION:Reorganization Day
+CATEGORIES:STAFF
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250825-first-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20250825
+SUMMARY:First Day for Students
+DESCRIPTION:First Day for Students
+CATEGORIES:ACADEMIC
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250825-k-interview@schoolcalendar.com
+DTSTART;VALUE=DATE:20250825
+SUMMARY:Kindergarten Interview Days (3 hour Early Dismissal K only)
+DESCRIPTION:Kindergarten Interview Days (3 hour Early Dismissal K only)
+CATEGORIES:KINDERGARTEN
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250826-k-interview@schoolcalendar.com
+DTSTART;VALUE=DATE:20250826
+SUMMARY:Kindergarten Interview Days (3 hour Early Dismissal K only)
+DESCRIPTION:Kindergarten Interview Days (3 hour Early Dismissal K only)
+CATEGORIES:KINDERGARTEN
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250827-pbis-15@schoolcalendar.com
+DTSTART;VALUE=DATE:20250827
+SUMMARY:PBIS Student Kick-Off @ 3pm (Gr. 1-5)
+DESCRIPTION:PBIS Student Kick-Off @ 3pm (Gr. 1-5)
+CATEGORIES:PBIS
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250827-k-interview@schoolcalendar.com
+DTSTART;VALUE=DATE:20250827
+SUMMARY:Kindergarten Interview Days (3 hour Early Dismissal K only)
+DESCRIPTION:Kindergarten Interview Days (3 hour Early Dismissal K only)
+CATEGORIES:KINDERGARTEN
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250828-pbis-68@schoolcalendar.com
+DTSTART;VALUE=DATE:20250828
+SUMMARY:PBIS Student Kick-Off @ 3pm (Gr. 6-8)
+DESCRIPTION:PBIS Student Kick-Off @ 3pm (Gr. 6-8)
+CATEGORIES:PBIS
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250828-k-interview@schoolcalendar.com
+DTSTART;VALUE=DATE:20250828
+SUMMARY:Kindergarten Interview Days (3 hour Early Dismissal K only)
+DESCRIPTION:Kindergarten Interview Days (3 hour Early Dismissal K only)
+CATEGORIES:KINDERGARTEN
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250829-k-interview@schoolcalendar.com
+DTSTART;VALUE=DATE:20250829
+SUMMARY:Kindergarten Interview Days (3 hour Early Dismissal K only)
+DESCRIPTION:Kindergarten Interview Days (3 hour Early Dismissal K only)
+CATEGORIES:KINDERGARTEN
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250901-labor-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20250901
+SUMMARY:No School / Labor Day
+DESCRIPTION:No School / Labor Day
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250908-selection-opens@schoolcalendar.com
+DTSTART;VALUE=DATE:20250908
+SUMMARY:School Selection Opens @ 4:00 pm
+DESCRIPTION:School Selection Opens @ 4:00 pm
+CATEGORIES:ACADEMIC
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250912-early-dismiss@schoolcalendar.com
+DTSTART;VALUE=DATE:20250912
+SUMMARY:Early Dismissal / Professional Development
+DESCRIPTION:Early Dismissal / Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250923-rosh-hashanah@schoolcalendar.com
+DTSTART;VALUE=DATE:20250923
+SUMMARY:No School / Rosh Hashanah
+DESCRIPTION:No School / Rosh Hashanah
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250926-pbis-sept@schoolcalendar.com
+DTSTART;VALUE=DATE:20250926
+SUMMARY:PBIS End of Month Reward: School-Wide Pretzel and Water Ice
+DESCRIPTION:PBIS End of Month Reward: School-Wide Pretzel and Water Ice
+CATEGORIES:PBIS
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251002-yom-kippur@schoolcalendar.com
+DTSTART;VALUE=DATE:20251002
+SUMMARY:No School / Yom Kippur
+DESCRIPTION:No School / Yom Kippur
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251003-attendance-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20251003
+SUMMARY:Student Attendance Improvement Conference
+DESCRIPTION:Student Attendance Improvement Conference
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251006-book-fair@schoolcalendar.com
+DTSTART;VALUE=DATE:20251006
+SUMMARY:Book Fair
+DESCRIPTION:Book Fair
+CATEGORIES:EVENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251007-book-fair@schoolcalendar.com
+DTSTART;VALUE=DATE:20251007
+SUMMARY:Book Fair
+DESCRIPTION:Book Fair
+CATEGORIES:EVENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251008-book-fair@schoolcalendar.com
+DTSTART;VALUE=DATE:20251008
+SUMMARY:Book Fair
+DESCRIPTION:Book Fair
+CATEGORIES:EVENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251009-book-fair@schoolcalendar.com
+DTSTART;VALUE=DATE:20251009
+SUMMARY:Book Fair
+DESCRIPTION:Book Fair
+CATEGORIES:EVENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251010-book-fair@schoolcalendar.com
+DTSTART;VALUE=DATE:20251010
+SUMMARY:Book Fair
+DESCRIPTION:Book Fair
+CATEGORIES:EVENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251013-indigenous-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20251013
+SUMMARY:No School / Indigenous People's Day
+DESCRIPTION:No School / Indigenous People's Day
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251020-picture-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20251020
+SUMMARY:School Picture Day
+DESCRIPTION:School Picture Day
+CATEGORIES:EVENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251022-unity-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20251022
+SUMMARY:Unity Day
+DESCRIPTION:Unity Day
+CATEGORIES:EVENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251023-selection-closes@schoolcalendar.com
+DTSTART;VALUE=DATE:20251023
+SUMMARY:School Selection Closes @ 11:59 pm
+DESCRIPTION:School Selection Closes @ 11:59 pm
+CATEGORIES:ACADEMIC
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251031-pbis-oct@schoolcalendar.com
+DTSTART;VALUE=DATE:20251031
+SUMMARY:PBIS End of Month Reward - Class Party
+DESCRIPTION:PBIS End of Month Reward - Class Party
+CATEGORIES:PBIS
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251104-election-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20251104
+SUMMARY:No School / Election Day
+DESCRIPTION:No School / Election Day
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251107-attendance-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20251107
+SUMMARY:Student Attendance Improvement Conference
+DESCRIPTION:Student Attendance Improvement Conference
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251110-q1-ends@schoolcalendar.com
+DTSTART;VALUE=DATE:20251110
+SUMMARY:Quarter 1 Ends
+DESCRIPTION:Quarter 1 Ends
+CATEGORIES:ACADEMIC
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251111-veterans-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20251111
+SUMMARY:No School / Veterans Day
+DESCRIPTION:No School / Veterans Day
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251113-caregiver-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20251113
+SUMMARY:Bring Your Caregiver to School Day
+DESCRIPTION:Bring Your Caregiver to School Day
+CATEGORIES:EVENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251121-pbis-nov@schoolcalendar.com
+DTSTART;VALUE=DATE:20251121
+SUMMARY:PBIS End of Month Reward - Class Party
+DESCRIPTION:PBIS End of Month Reward - Class Party
+CATEGORIES:PBIS
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251124-report-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20251124
+SUMMARY:Early Dismissal / Report Card Conferences
+DESCRIPTION:Early Dismissal / Report Card Conferences
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251125-report-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20251125
+SUMMARY:Early Dismissal / Report Card Conferences
+DESCRIPTION:Early Dismissal / Report Card Conferences
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251126-early-dismiss@schoolcalendar.com
+DTSTART;VALUE=DATE:20251126
+SUMMARY:Early Dismissal Staff & Students
+DESCRIPTION:Early Dismissal Staff & Students
+CATEGORIES:EARLY DISMISSAL
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251127-thanksgiving@schoolcalendar.com
+DTSTART;VALUE=DATE:20251127
+SUMMARY:No School - Thanksgiving Holiday
+DESCRIPTION:No School - Thanksgiving Holiday
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251128-thanksgiving@schoolcalendar.com
+DTSTART;VALUE=DATE:20251128
+SUMMARY:No School - Thanksgiving Holiday
+DESCRIPTION:No School - Thanksgiving Holiday
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251201-picture-retake@schoolcalendar.com
+DTSTART;VALUE=DATE:20251201
+SUMMARY:Picture Retake Day
+DESCRIPTION:Picture Retake Day
+CATEGORIES:EVENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251205-attendance-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20251205
+SUMMARY:Student Attendance Improvement Conference
+DESCRIPTION:Student Attendance Improvement Conference
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251212-early-dismiss@schoolcalendar.com
+DTSTART;VALUE=DATE:20251212
+SUMMARY:Early Dismissal / Professional Development
+DESCRIPTION:Early Dismissal / Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251219-pbis-dec@schoolcalendar.com
+DTSTART;VALUE=DATE:20251219
+SUMMARY:PBIS End of Month Reward - Classroom Party
+DESCRIPTION:PBIS End of Month Reward - Classroom Party
+CATEGORIES:PBIS
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251224-winter-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20251224
+SUMMARY:Winter Break
+DESCRIPTION:Winter Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251225-winter-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20251225
+SUMMARY:Winter Break
+DESCRIPTION:Winter Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251226-winter-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20251226
+SUMMARY:Winter Break
+DESCRIPTION:Winter Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251227-winter-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20251227
+SUMMARY:Winter Break
+DESCRIPTION:Winter Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251228-winter-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20251228
+SUMMARY:Winter Break
+DESCRIPTION:Winter Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251229-winter-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20251229
+SUMMARY:Winter Break
+DESCRIPTION:Winter Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251230-winter-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20251230
+SUMMARY:Winter Break
+DESCRIPTION:Winter Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251231-winter-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20251231
+SUMMARY:Winter Break
+DESCRIPTION:Winter Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260101-new-year@schoolcalendar.com
+DTSTART;VALUE=DATE:20260101
+SUMMARY:No School / New Year's Day
+DESCRIPTION:No School / New Year's Day
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260102-staff-pd@schoolcalendar.com
+DTSTART;VALUE=DATE:20260102
+SUMMARY:Staff Only Professional Development
+DESCRIPTION:Staff Only Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260109-attendance-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20260109
+SUMMARY:Student Attendance Improvement Conference
+DESCRIPTION:Student Attendance Improvement Conference
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260115-mlk-celebration@schoolcalendar.com
+DTSTART;VALUE=DATE:20260115
+SUMMARY:Martin Luther King Day Celebration
+DESCRIPTION:Martin Luther King Day Celebration
+CATEGORIES:EVENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260116-early-dismiss@schoolcalendar.com
+DTSTART;VALUE=DATE:20260116
+SUMMARY:Early Dismissal / Professional Development
+DESCRIPTION:Early Dismissal / Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260119-mlk-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20260119
+SUMMARY:No School / Martin Luther King Jr. Day
+DESCRIPTION:No School / Martin Luther King Jr. Day
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260121-q2-ends@schoolcalendar.com
+DTSTART;VALUE=DATE:20260121
+SUMMARY:Quarter 2 Ends
+DESCRIPTION:Quarter 2 Ends
+CATEGORIES:ACADEMIC
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260123-pbis-jan@schoolcalendar.com
+DTSTART;VALUE=DATE:20260123
+SUMMARY:PBIS End of Month Reward - Classroom Party
+DESCRIPTION:PBIS End of Month Reward - Classroom Party
+CATEGORIES:PBIS
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260129-report-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20260129
+SUMMARY:Early Dismissal / Report Card Conferences
+DESCRIPTION:Early Dismissal / Report Card Conferences
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260130-report-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20260130
+SUMMARY:Early Dismissal / Report Card Conferences
+DESCRIPTION:Early Dismissal / Report Card Conferences
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260206-attendance-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20260206
+SUMMARY:Student Attendance Improvement Conference
+DESCRIPTION:Student Attendance Improvement Conference
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260213-early-dismiss@schoolcalendar.com
+DTSTART;VALUE=DATE:20260213
+SUMMARY:Early Dismissal / Professional Development
+DESCRIPTION:Early Dismissal / Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260216-presidents-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20260216
+SUMMARY:No School / President's Day
+DESCRIPTION:No School / President's Day
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260217-lunar-new-year@schoolcalendar.com
+DTSTART;VALUE=DATE:20260217
+SUMMARY:No School / Lunar New Year
+DESCRIPTION:No School / Lunar New Year
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260227-pbis-feb@schoolcalendar.com
+DTSTART;VALUE=DATE:20260227
+SUMMARY:PBIS End of Month Reward - Sterlin Barr RAP Assemblies
+DESCRIPTION:PBIS End of Month Reward - Sterlin Barr RAP Assemblies
+CATEGORIES:PBIS
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260306-attendance-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20260306
+SUMMARY:Student Attendance Improvement Conference
+DESCRIPTION:Student Attendance Improvement Conference
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260312-caregiver-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20260312
+SUMMARY:Bring Your Caregiver to School Day
+DESCRIPTION:Bring Your Caregiver to School Day
+CATEGORIES:EVENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260313-early-dismiss@schoolcalendar.com
+DTSTART;VALUE=DATE:20260313
+SUMMARY:Early Dismissal / Professional Development
+DESCRIPTION:Early Dismissal / Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260320-eid-fitr@schoolcalendar.com
+DTSTART;VALUE=DATE:20260320
+SUMMARY:No School / Eid al-Fitr
+DESCRIPTION:No School / Eid al-Fitr
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260323-spring-pictures@schoolcalendar.com
+DTSTART;VALUE=DATE:20260323
+SUMMARY:Spring Picture Day / Graduation Pictures
+DESCRIPTION:Spring Picture Day / Graduation Pictures
+CATEGORIES:EVENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260324-q3-ends@schoolcalendar.com
+DTSTART;VALUE=DATE:20260324
+SUMMARY:Quarter 3 Ends
+DESCRIPTION:Quarter 3 Ends
+CATEGORIES:ACADEMIC
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260326-pbis-mar-k5@schoolcalendar.com
+DTSTART;VALUE=DATE:20260326
+SUMMARY:PBIS End of Month Reward - Walnut St. Theater Presentation K-5
+DESCRIPTION:PBIS End of Month Reward - Walnut St. Theater Presentation K-5
+CATEGORIES:PBIS
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260327-pbis-mar-68@schoolcalendar.com
+DTSTART;VALUE=DATE:20260327
+SUMMARY:PBIS End of Month Reward -Walnut St. Theater Presentation 6-8
+DESCRIPTION:PBIS End of Month Reward -Walnut St. Theater Presentation 6-8
+CATEGORIES:PBIS
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260330-spring-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20260330
+SUMMARY:No School / Spring Break
+DESCRIPTION:No School / Spring Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260331-spring-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20260331
+SUMMARY:No School / Spring Break
+DESCRIPTION:No School / Spring Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260401-spring-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20260401
+SUMMARY:No School / Spring Break
+DESCRIPTION:No School / Spring Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260402-spring-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20260402
+SUMMARY:No School / Spring Break
+DESCRIPTION:No School / Spring Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260403-spring-break@schoolcalendar.com
+DTSTART;VALUE=DATE:20260403
+SUMMARY:No School / Spring Break
+DESCRIPTION:No School / Spring Break
+CATEGORIES:BREAK
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260409-report-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20260409
+SUMMARY:Early Dismissal / Report Card Conferences
+DESCRIPTION:Early Dismissal / Report Card Conferences
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260410-report-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20260410
+SUMMARY:Early Dismissal / Report Card Conferences
+DESCRIPTION:Early Dismissal / Report Card Conferences
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260410-attendance-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20260410
+SUMMARY:Student Attendance Improvement Conference
+DESCRIPTION:Student Attendance Improvement Conference
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260417-early-dismiss@schoolcalendar.com
+DTSTART;VALUE=DATE:20260417
+SUMMARY:Early Dismissal / Professional Development
+DESCRIPTION:Early Dismissal / Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260420-pssa-begins@schoolcalendar.com
+DTSTART;VALUE=DATE:20260420
+SUMMARY:PSSA Testing Begins
+DESCRIPTION:PSSA Testing Begins
+CATEGORIES:TESTING
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260430-pbis-apr@schoolcalendar.com
+DTSTART;VALUE=DATE:20260430
+SUMMARY:PBIS End of Month Reward - Classroom Party
+DESCRIPTION:PBIS End of Month Reward - Classroom Party
+CATEGORIES:PBIS
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260501-pssa-ends@schoolcalendar.com
+DTSTART;VALUE=DATE:20260501
+SUMMARY:PSSA Testing Ends
+DESCRIPTION:PSSA Testing Ends
+CATEGORIES:TESTING
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260501-attendance-conf@schoolcalendar.com
+DTSTART;VALUE=DATE:20260501
+SUMMARY:Student Attendance Improvement Conference
+DESCRIPTION:Student Attendance Improvement Conference
+CATEGORIES:CONFERENCE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260508-early-dismiss@schoolcalendar.com
+DTSTART;VALUE=DATE:20260508
+SUMMARY:Early Dismissal / Professional Development
+DESCRIPTION:Early Dismissal / Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260519-election-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20260519
+SUMMARY:No School / Election Day
+DESCRIPTION:No School / Election Day
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260525-memorial-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20260525
+SUMMARY:No School / Memorial Day
+DESCRIPTION:No School / Memorial Day
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260527-eid-adha@schoolcalendar.com
+DTSTART;VALUE=DATE:20260527
+SUMMARY:No School / Eid al-Adha
+DESCRIPTION:No School / Eid al-Adha
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260529-pbis-may@schoolcalendar.com
+DTSTART;VALUE=DATE:20260529
+SUMMARY:PBIS End of Month Reward - Fun Fest/Trip
+DESCRIPTION:PBIS End of Month Reward - Fun Fest/Trip
+CATEGORIES:PBIS
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260611-early-dismiss@schoolcalendar.com
+DTSTART;VALUE=DATE:20260611
+SUMMARY:Early Dismissal / Professional Development
+DESCRIPTION:Early Dismissal / Professional Development
+CATEGORIES:PROFESSIONAL DEVELOPMENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260612-last-day@schoolcalendar.com
+DTSTART;VALUE=DATE:20260612
+SUMMARY:Early Dismissal Students / Last Day Staff & Students
+DESCRIPTION:Early Dismissal Students / Last Day Staff & Students
+CATEGORIES:ACADEMIC
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260619-juneteenth@schoolcalendar.com
+DTSTART;VALUE=DATE:20260619
+SUMMARY:Juneteenth
+DESCRIPTION:Juneteenth
+CATEGORIES:HOLIDAY
+END:VEVENT
+
+END:VCALENDAR
