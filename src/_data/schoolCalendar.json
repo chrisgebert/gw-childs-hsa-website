@@ -1,568 +1,390 @@
 [
-    {
-        "date": "2025-08-18",
-        "event": "Staff Professional Development & Reorganization",
-        "type": "staff_development",
-        "duration": "Full Day"
-    },
-    {
-        "date": "2025-08-19",
-        "event": "Staff Professional Development & Reorganization",
-        "type": "staff_development",
-        "duration": "Full Day"
-    },
-    {
-        "date": "2025-08-20",
-        "event": "Staff Professional Development & Reorganization",
-        "type": "staff_development",
-        "duration": "Full Day"
-    },
-    {
-        "date": "2025-08-21",
-        "event": "Staff Professional Development & Reorganization",
-        "type": "staff_development",
-        "duration": "Full Day"
-    },
-    {
-        "date": "2025-08-22",
-        "event": "Staff Professional Development & Reorganization",
-        "type": "staff_development",
-        "duration": "Full Day"
-    },
-    {
-        "date": "2025-08-25",
-        "event": "1st Day of School for Students",
-        "type": "school_day"
-    },
-    {
-        "date": "2025-08-25",
-        "event": "Kindergarten Interview Days",
-        "type": "early_dismissal",
-        "duration": "3-Hour Early Dismissal K only"
-    },
-    {
-        "date": "2025-08-26",
-        "event": "Kindergarten Interview Days",
-        "type": "early_dismissal",
-        "duration": "3-Hour Early Dismissal K only"
-    },
-    {
-        "date": "2025-08-27",
-        "event": "Kindergarten Interview Days",
-        "type": "early_dismissal",
-        "duration": "3-Hour Early Dismissal K only"
-    },
-    {
-        "date": "2025-08-28",
-        "event": "Kindergarten Interview Days",
-        "type": "early_dismissal",
-        "duration": "3-Hour Early Dismissal K only"
-    },
-    {
-        "date": "2025-08-29",
-        "event": "Kindergarten Interview Days",
-        "type": "early_dismissal",
-        "duration": "3-Hour Early Dismissal K only"
-    },
-    {
-        "date": "2025-09-01",
-        "event": "Labor Day",
-        "type": "holiday",
-        "status": "Schools Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-09-12",
-        "event": "Staff Professional Development",
-        "type": "staff_development",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2025-09-23",
-        "event": "Rosh Hashanah",
-        "type": "holiday",
-        "status": "Schools Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-09-30",
-        "event": "Term 1 Interim Reports Due",
-        "type": "academic_milestone"
-    },
-    {
-        "date": "2025-10-02",
-        "event": "Yom Kippur",
-        "type": "holiday",
-        "status": "Schools Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-10-10",
-        "event": "Staff Professional Development",
-        "type": "staff_development",
-        "duration": "Full Day",
-        "status": "School Closed for Students"
-    },
-    {
-        "date": "2025-10-13",
-        "event": "Indigenous People’s Day",
-        "type": "holiday",
-        "status": "Schools Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-10-20",
-        "event": "Diwali",
-        "type": "holiday",
-        "status": "School Closed for Students/Staff"
-    },
-    {
-        "date": "2025-11-04",
-        "event": "Election Day",
-        "type": "holiday",
-        "status": "Schools Closed for Students/Staff"
-    },
-    {
-        "date": "2025-11-10",
-        "event": "Term 1 Ends",
-        "type": "academic_milestone"
-    },
-    {
-        "date": "2025-11-11",
-        "event": "Veteran’s Day",
-        "type": "holiday",
-        "status": "Schools Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-11-24",
-        "event": "Report Card Conference",
-        "type": "conference",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2025-11-25",
-        "event": "Report Card Conference",
-        "type": "conference",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2025-11-26",
-        "event": "Early Dismissal",
-        "type": "early_dismissal",
-        "duration": "3-Hour Early Dismissal for Students/Staff"
-    },
-    {
-        "date": "2025-11-27",
-        "event": "Thanksgiving Recess",
-        "type": "recess",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-11-28",
-        "event": "Thanksgiving Recess",
-        "type": "recess",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-12-11",
-        "event": "Term 2 Interim Reports Due",
-        "type": "academic_milestone"
-    },
-    {
-        "date": "2025-12-12",
-        "event": "Staff Professional Development",
-        "type": "staff_development",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2025-12-24",
-        "event": "Winter Recess",
-        "type": "recess",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-12-25",
-        "event": "Christmas Day",
-        "type": "holiday",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-12-26",
-        "event": "Winter Recess",
-        "type": "recess",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-12-27",
-        "event": "Winter Recess",
-        "type": "recess",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-12-28",
-        "event": "Winter Recess",
-        "type": "recess",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-12-29",
-        "event": "Winter Recess",
-        "type": "recess",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-12-30",
-        "event": "Winter Recess",
-        "type": "recess",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2025-12-31",
-        "event": "Winter Recess",
-        "type": "recess",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2026-01-01",
-        "event": "New Year’s Day",
-        "type": "holiday",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2026-01-02",
-        "event": "Staff Professional Development",
-        "type": "staff_development",
-        "duration": "Full Day",
-        "status": "School Closed for Students"
-    },
-    {
-        "date": "2026-01-05",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-01-06",
-        "event": "Three Kings Day",
-        "type": "cultural_holiday"
-    },
-    {
-        "date": "2026-01-06",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-01-07",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-01-08",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-01-09",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-01-10",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-01-11",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-01-12",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-01-13",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-01-14",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-01-15",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-01-16",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-01-16",
-        "event": "Staff Professional Development",
-        "type": "staff_development",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2026-01-19",
-        "event": "Dr. Martin Luther King Jr Day",
-        "type": "holiday",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2026-01-21",
-        "event": "Term 2 Ends",
-        "type": "academic_milestone"
-    },
-    {
-        "date": "2026-01-29",
-        "event": "2nd Term Report Card Conferences",
-        "type": "conference",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2026-01-30",
-        "event": "2nd Term Report Card Conferences",
-        "type": "conference",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2026-02-13",
-        "event": "Staff Professional Development",
-        "type": "staff_development",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2026-02-16",
-        "event": "Presidents’ Day",
-        "type": "holiday",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2026-02-17",
-        "event": "Lunar New Year",
-        "type": "holiday",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2026-02-19",
-        "event": "Term 3 Interim Reports Due",
-        "type": "academic_milestone"
-    },
-    {
-        "date": "2026-03-13",
-        "event": "Staff Professional Development",
-        "type": "staff_development",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2026-03-20",
-        "event": "Eid al-Fitr",
-        "type": "holiday",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2026-03-24",
-        "event": "Term 3 Ends",
-        "type": "academic_milestone"
-    },
-    {
-        "date": "2026-03-30",
-        "event": "Spring Recess",
-        "type": "recess",
-        "status": "Schools Closed for Students/Staff"
-    },
-    {
-        "date": "2026-03-31",
-        "event": "Spring Recess",
-        "type": "recess",
-        "status": "Schools Closed for Students/Staff"
-    },
-    {
-        "date": "2026-04-01",
-        "event": "Spring Recess",
-        "type": "recess",
-        "status": "Schools Closed for Students/Staff"
-    },
-    {
-        "date": "2026-04-02",
-        "event": "Spring Recess",
-        "type": "recess",
-        "status": "Schools Closed for Students/Staff"
-    },
-    {
-        "date": "2026-04-03",
-        "event": "Good Friday",
-        "type": "holiday",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2026-04-09",
-        "event": "Report Card Conference",
-        "type": "conference",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2026-04-10",
-        "event": "Report Card Conference",
-        "type": "conference",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2026-04-17",
-        "event": "Staff Professional Development",
-        "type": "staff_development",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2026-04-20",
-        "event": "PSSA Testing Begins",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-01",
-        "event": "PSSA Testing Ends",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-05",
-        "event": "Term 4 Interim Reports Due",
-        "type": "academic_milestone"
-    },
-    {
-        "date": "2026-05-08",
-        "event": "Staff Professional Development",
-        "type": "staff_development",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2026-05-11",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-12",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-13",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-14",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-15",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-16",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-17",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-18",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-19",
-        "event": "Election Day (tentative)",
-        "type": "holiday",
-        "status": "Schools Closed for Students/Staff"
-    },
-    {
-        "date": "2026-05-19",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-20",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-21",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-22",
-        "event": "Keystone Testing Window",
-        "type": "testing"
-    },
-    {
-        "date": "2026-05-25",
-        "event": "Memorial Day",
-        "type": "holiday",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2026-05-27",
-        "event": "Eid al-Adha",
-        "type": "holiday",
-        "status": "School Closed for Students/Staff; Admin Offices Closed"
-    },
-    {
-        "date": "2026-06-10",
-        "event": "Graduation Window",
-        "type": "graduation"
-    },
-    {
-        "date": "2026-06-11",
-        "event": "Graduation Window",
-        "type": "graduation"
-    },
-    {
-        "date": "2026-06-11",
-        "event": "Staff Professional Development",
-        "type": "staff_development",
-        "duration": "Half Day",
-        "student_impact": "3-Hour Early Dismissal for Students"
-    },
-    {
-        "date": "2026-06-12",
-        "event": "Graduation Window",
-        "type": "graduation"
-    },
-    {
-        "date": "2026-06-12",
-        "event": "Last Day of School for Students/Staff",
-        "type": "school_day",
-        "student_impact": "3-Hour Early Dismissal for Students, Full day for Staff"
-    },
-    {
-        "date": "2026-06-19",
-        "event": "Juneteenth",
-        "type": "holiday",
-        "status": "Admin Offices Closed"
-    },
-    {
-        "date": "2026-07-03",
-        "event": "Independence Day (observed)",
-        "type": "holiday",
-        "status": "School Closed for Students/Staff; Admin Offices Closed and No Summer Programming"
-    }
+{
+“date”: “2025-08-18”,
+“event”: “First Day Staff / Professional Development”
+},
+{
+“date”: “2025-08-19”,
+“event”: “Professional Development”
+},
+{
+“date”: “2025-08-20”,
+“event”: “Professional Development”
+},
+{
+“date”: “2025-08-21”,
+“event”: “Professional Development”
+},
+{
+“date”: “2025-08-22”,
+“event”: “Reorganization Day”
+},
+{
+“date”: “2025-08-25”,
+“event”: “First Day for Students”
+},
+{
+“date”: “2025-08-25”,
+“event”: “Kindergarten Interview Days (3 hour Early Dismissal K only)”
+},
+{
+“date”: “2025-08-26”,
+“event”: “Kindergarten Interview Days (3 hour Early Dismissal K only)”
+},
+{
+“date”: “2025-08-27”,
+“event”: “PBIS Student Kick-Off @ 3pm (Gr. 1-5)”
+},
+{
+“date”: “2025-08-27”,
+“event”: “Kindergarten Interview Days (3 hour Early Dismissal K only)”
+},
+{
+“date”: “2025-08-28”,
+“event”: “PBIS Student Kick-Off @ 3pm (Gr. 6-8)”
+},
+{
+“date”: “2025-08-28”,
+“event”: “Kindergarten Interview Days (3 hour Early Dismissal K only)”
+},
+{
+“date”: “2025-08-29”,
+“event”: “Kindergarten Interview Days (3 hour Early Dismissal K only)”
+},
+{
+“date”: “2025-09-01”,
+“event”: “No School / Labor Day”
+},
+{
+“date”: “2025-09-08”,
+“event”: “School Selection Opens @ 4:00 pm”
+},
+{
+“date”: “2025-09-12”,
+“event”: “Early Dismissal / Professional Development”
+},
+{
+“date”: “2025-09-23”,
+“event”: “No School / Rosh Hashanah”
+},
+{
+“date”: “2025-09-26”,
+“event”: “PBIS End of Month Reward: School-Wide Pretzel and Water Ice”
+},
+{
+“date”: “2025-10-02”,
+“event”: “No School / Yom Kippur”
+},
+{
+“date”: “2025-10-03”,
+“event”: “Student Attendance Improvement Conference”
+},
+{
+“date”: “2025-10-06”,
+“event”: “Book Fair”
+},
+{
+“date”: “2025-10-07”,
+“event”: “Book Fair”
+},
+{
+“date”: “2025-10-08”,
+“event”: “Book Fair”
+},
+{
+“date”: “2025-10-09”,
+“event”: “Book Fair”
+},
+{
+“date”: “2025-10-10”,
+“event”: “Book Fair”
+},
+{
+“date”: “2025-10-13”,
+“event”: “No School / Indigenous People’s Day”
+},
+{
+“date”: “2025-10-20”,
+“event”: “School Picture Day”
+},
+{
+“date”: “2025-10-22”,
+“event”: “Unity Day”
+},
+{
+“date”: “2025-10-23”,
+“event”: “School Selection Closes @ 11:59 pm”
+},
+{
+“date”: “2025-10-31”,
+“event”: “PBIS End of Month Reward - Class Party”
+},
+{
+“date”: “2025-11-04”,
+“event”: “No School / Election Day”
+},
+{
+“date”: “2025-11-07”,
+“event”: “Student Attendance Improvement Conference”
+},
+{
+“date”: “2025-11-10”,
+“event”: “Quarter 1 Ends”
+},
+{
+“date”: “2025-11-11”,
+“event”: “No School / Veterans Day”
+},
+{
+“date”: “2025-11-13”,
+“event”: “Bring Your Caregiver to School Day”
+},
+{
+“date”: “2025-11-21”,
+“event”: “PBIS End of Month Reward - Class Party”
+},
+{
+“date”: “2025-11-24”,
+“event”: “Early Dismissal / Report Card Conferences”
+},
+{
+“date”: “2025-11-25”,
+“event”: “Early Dismissal / Report Card Conferences”
+},
+{
+“date”: “2025-11-26”,
+“event”: “Early Dismissal Staff & Students”
+},
+{
+“date”: “2025-11-27”,
+“event”: “No School - Thanksgiving Holiday”
+},
+{
+“date”: “2025-11-28”,
+“event”: “No School - Thanksgiving Holiday”
+},
+{
+“date”: “2025-12-01”,
+“event”: “Picture Retake Day”
+},
+{
+“date”: “2025-12-05”,
+“event”: “Student Attendance Improvement Conference”
+},
+{
+“date”: “2025-12-12”,
+“event”: “Early Dismissal / Professional Development”
+},
+{
+“date”: “2025-12-19”,
+“event”: “PBIS End of Month Reward - Classroom Party”
+},
+{
+“date”: “2025-12-24”,
+“event”: “Winter Break”
+},
+{
+“date”: “2025-12-25”,
+“event”: “Winter Break”
+},
+{
+“date”: “2025-12-26”,
+“event”: “Winter Break”
+},
+{
+“date”: “2025-12-27”,
+“event”: “Winter Break”
+},
+{
+“date”: “2025-12-28”,
+“event”: “Winter Break”
+},
+{
+“date”: “2025-12-29”,
+“event”: “Winter Break”
+},
+{
+“date”: “2025-12-30”,
+“event”: “Winter Break”
+},
+{
+“date”: “2025-12-31”,
+“event”: “Winter Break”
+},
+{
+“date”: “2026-01-01”,
+“event”: “No School / New Year’s Day”
+},
+{
+“date”: “2026-01-02”,
+“event”: “Staff Only Professional Development”
+},
+{
+“date”: “2026-01-09”,
+“event”: “Student Attendance Improvement Conference”
+},
+{
+“date”: “2026-01-15”,
+“event”: “Martin Luther King Day Celebration”
+},
+{
+“date”: “2026-01-16”,
+“event”: “Early Dismissal / Professional Development”
+},
+{
+“date”: “2026-01-19”,
+“event”: “No School / Martin Luther King Jr. Day”
+},
+{
+“date”: “2026-01-21”,
+“event”: “Quarter 2 Ends”
+},
+{
+“date”: “2026-01-23”,
+“event”: “PBIS End of Month Reward - Classroom Party”
+},
+{
+“date”: “2026-01-29”,
+“event”: “Early Dismissal / Report Card Conferences”
+},
+{
+“date”: “2026-01-30”,
+“event”: “Early Dismissal / Report Card Conferences”
+},
+{
+“date”: “2026-02-06”,
+“event”: “Student Attendance Improvement Conference”
+},
+{
+“date”: “2026-02-13”,
+“event”: “Early Dismissal / Professional Development”
+},
+{
+“date”: “2026-02-16”,
+“event”: “No School / President’s Day”
+},
+{
+“date”: “2026-02-17”,
+“event”: “No School / Lunar New Year”
+},
+{
+“date”: “2026-02-27”,
+“event”: “PBIS End of Month Reward - Sterlin Barr RAP Assemblies”
+},
+{
+“date”: “2026-03-06”,
+“event”: “Student Attendance Improvement Conference”
+},
+{
+“date”: “2026-03-12”,
+“event”: “Bring Your Caregiver to School Day”
+},
+{
+“date”: “2026-03-13”,
+“event”: “Early Dismissal / Professional Development”
+},
+{
+“date”: “2026-03-20”,
+“event”: “No School / Eid al-Fitr”
+},
+{
+“date”: “2026-03-23”,
+“event”: “Spring Picture Day / Graduation Pictures”
+},
+{
+“date”: “2026-03-24”,
+“event”: “Quarter 3 Ends”
+},
+{
+“date”: “2026-03-26”,
+“event”: “PBIS End of Month Reward - Walnut St. Theater Presentation K-5”
+},
+{
+“date”: “2026-03-27”,
+“event”: “PBIS End of Month Reward -Walnut St. Theater Presentation 6-8”
+},
+{
+“date”: “2026-03-30”,
+“event”: “No School / Spring Break”
+},
+{
+“date”: “2026-03-31”,
+“event”: “No School / Spring Break”
+},
+{
+“date”: “2026-04-01”,
+“event”: “No School / Spring Break”
+},
+{
+“date”: “2026-04-02”,
+“event”: “No School / Spring Break”
+},
+{
+“date”: “2026-04-03”,
+“event”: “No School / Spring Break”
+},
+{
+“date”: “2026-04-09”,
+“event”: “Early Dismissal / Report Card Conferences”
+},
+{
+“date”: “2026-04-10”,
+“event”: “Early Dismissal / Report Card Conferences”
+},
+{
+“date”: “2026-04-10”,
+“event”: “Student Attendance Improvement Conference”
+},
+{
+“date”: “2026-04-17”,
+“event”: “Early Dismissal / Professional Development”
+},
+{
+“date”: “2026-04-20”,
+“event”: “PSSA Testing Begins”
+},
+{
+“date”: “2026-04-30”,
+“event”: “PBIS End of Month Reward - Classroom Party”
+},
+{
+“date”: “2026-05-01”,
+“event”: “PSSA Testing Ends”
+},
+{
+“date”: “2026-05-01”,
+“event”: “Student Attendance Improvement Conference”
+},
+{
+“date”: “2026-05-08”,
+“event”: “Early Dismissal / Professional Development”
+},
+{
+“date”: “2026-05-19”,
+“event”: “No School / Election Day”
+},
+{
+“date”: “2026-05-25”,
+“event”: “No School / Memorial Day”
+},
+{
+“date”: “2026-05-27”,
+“event”: “No School / Eid al-Adha”
+},
+{
+“date”: “2026-05-29”,
+“event”: “PBIS End of Month Reward - Fun Fest/Trip”
+},
+{
+“date”: “2026-06-11”,
+“event”: “Early Dismissal / Professional Development”
+},
+{
+“date”: “2026-06-12”,
+“event”: “Early Dismissal Students / Last Day Staff & Students”
+},
+{
+“date”: “2026-06-19”,
+“event”: “Juneteenth”
+}
 ]
