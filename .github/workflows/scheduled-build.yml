@@ -35,7 +35,7 @@ jobs:
 
           DEPLOY_OUTPUT=$(netlify deploy --prod --dir=_site --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=${{ secrets.NETLIFY_SITE_ID }})
 
-          if [$? -eq 0]; then
+          if [ $? -eq 0 ]; then
             echo "deploy_status=success" >> GITHUB_OUTPUT
             echo "Netlify deployment successful"
             echo "$DEPLOY_OUTPUT"
