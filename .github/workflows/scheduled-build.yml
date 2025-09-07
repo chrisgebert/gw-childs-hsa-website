@@ -66,9 +66,7 @@ jobs:
         if: success()
         run: |
           COMMIT_MSG()=$(git log -1 --pretty=format:"%s")
-          curl -d "Website deployed successfully from commit
-          Commit: ${{ github.sha }}
-          Message: $COMMIT_MSG" \
+          curl -d "Website deployed successfully! Commit ${{ github.sha }} Message: ${COMMIT_MSG}" \
               -H "Title: Build & Deploy Success" \
               -H "Tags: white_check_mark,rocket,building_construction" \
               https://ntfy.sh/D75pkqUhyfzemKLu
