@@ -69,9 +69,9 @@ jobs:
           curl -d "Website deployed successfully from commit
           Commit: ${{ github.sha }}
           Message: $COMMIT_MSG" \
-            -H "Title: Build & Deploy Success" \
-            -H "Tags: white_check_mark,rocket,building_construction" \
-                https://ntfy.sh/D75pkqUhyfzemKLu
+              -H "Title: Build & Deploy Success" \
+              -H "Tags: white_check_mark,rocket,building_construction" \
+              https://ntfy.sh/D75pkqUhyfzemKLu
 
       - name: Send failure notification
         if: failure()
@@ -85,9 +85,8 @@ jobs:
             FAILED_STEP="Netlify build hook"
           fi
 
-          curl -d "Website build/deploy failed at: $FAILED_STEP
-          Check the logs at: ${{ github.server_url }}/${{ github.repository }}/$actions/runs/${{ github.run_id }}" \
+          curl -d "Website build/deploy failed at: $FAILED_STEP Check the logs at: ${{ github.server_url }}/${{ github.repository }}/$actions/runs/${{ github.run_id }}" \
             -H "Title: Build/Deploy Failed" \
             -H "Tags:x,warning,building_construction" \
             -H "Priority: high" \
-                https://ntfy.sh/D75pkqUhyfzemKLu
+            https://ntfy.sh/D75pkqUhyfzemKLu
