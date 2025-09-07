@@ -6,7 +6,7 @@ lang: en
 
 # Events
 
-## School Calendar [(ICS)]("{{ '/files/school-calendar-detailed.ics' | url }}")
+## School Calendar [(ICS)](https://gwchildshsa.org/files/childs-calendar.ics)
 
 {% include "partials/school-events.njk" %}
 
