@@ -65,7 +65,7 @@ jobs:
       - name: Send success notification
         if: success()
         run: |
-          COMMIT_MSG()=$(git log -1 --pretty=format:"%s")
+          COMMIT_MSG=$(git log -1 --pretty=format:"%s")
           curl -d "Website deployed successfully! Commit ${{ github.sha }} Message: ${COMMIT_MSG}" \
               -H "Title: Build & Deploy Success" \
               -H "Tags: white_check_mark,rocket,building_construction" \
