@@ -28,8 +28,27 @@ jobs:
           echo "build_status=success" >> $GITHUB_OUTPUT
           echo "11ty build completed successfully"
 
-      - name: Trigger Netlify Build Hook
-        id: netlify-build
+      - name: Deploy to Netlify
+        id: netlify-deploy
+        run: |
+          npm install -g netlify-cli
+
+          DEPLOY_OUTPUT=$(netlify deploy --prod --dir=_site --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=${{ secrets.NETLIFY_SITE_ID }})
+
+          if [$? -eq 0]; then
+            echo "deploy_status=success" >> GITHUB_OUTPUT
+            echo "Netlify deployment successful"
+            echo "$DEPLOY_OUTPUT"
+          else
+            echo "deploy_status=failure" >> GITHUB_OUTPUT
+            echo "Netlify deployment failed"
+            echo "$DEPLOY_OUTPUT"
+            exit 1
+          fi
+
+      - name: Fallback - Trigger Netlify Build Hook
+        if: failure() && steps.eleventy-build.output.build_status == 'success'
+        id: netlify-build-hook
         run: |
           echo "Attempting Netlify build via webhook..."
           RESPONSE=$(curl -k -s -o response.txt -w "%{http_code}" -X POST -d {} ${{ secrets.NETLIFY_BUILD_HOOK }})
@@ -60,13 +79,15 @@ jobs:
           FAILED_STEP="Unknown"
           if [ "${{ steps.eleventy-build.outcome }}" == "failure" ]; then
             FAILED_STEP="11ty build"
-          elif [ "${{ steps.netlify-build.outcome }}" == "failure" ]; then
-            FAILED_STEP="Netlify build"
+          elif [ "${{ steps.netlify-deploy.outcome }}" == "failure" ]; then
+            FAILED_STEP="Netlify deployment"
+          elif [ "${{ steps.netlify-build-hook.outcome }}" == "failure" ]; then
+            FAILED_STEP="Netlify build hook"
           fi
 
           curl -d "Website build/deploy failed at: $FAILED_STEP
-            Check the logs at: ${{ github.server_url }}/${{ github.repository }}/$actions/runs/${{ github.run_id }}" \
-                -H "Title: Build/Deploy Failed" \
-                -H "Tags:x,warning,building_construction" \
-                -H "Priority: high" \
+          Check the logs at: ${{ github.server_url }}/${{ github.repository }}/$actions/runs/${{ github.run_id }}" \
+            -H "Title: Build/Deploy Failed" \
+            -H "Tags:x,warning,building_construction" \
+            -H "Priority: high" \
                 https://ntfy.sh/D75pkqUhyfzemKLu
