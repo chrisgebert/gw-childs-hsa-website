@@ -24,9 +24,13 @@ jobs:
       - name: Build 11ty site
         id: eleventy-build
         run: |
+          echo "Starting 11ty build with API key present: $([ -n "$GOOGLE_API_KEY" ]  && echo "YES" || echo "NO")"
           npm run build
           echo "build_status=success" >> $GITHUB_OUTPUT
           echo "11ty build completed successfully"
+
+          echo "Checking for generated files in _site:"
+          find _site -name "*.html" -exec grep -l "google\|api\|event" {} \; | head -5 || echo "No files found with API content"
         env:
           NODE_ENV: production
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
