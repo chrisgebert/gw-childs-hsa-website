@@ -28,7 +28,7 @@ jobs:
           npm run build
           echo "build_status=success" >> $GITHUB_OUTPUT
           echo "11ty build completed successfully"
-      env:
+        env:
           NODE_ENV: production
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
 
