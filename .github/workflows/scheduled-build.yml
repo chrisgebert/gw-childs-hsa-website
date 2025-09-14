@@ -28,10 +28,7 @@ jobs:
           npm run build
           echo "build_status=success" >> $GITHUB_OUTPUT
           echo "11ty build completed successfully"
-
-          echo "Checking for generated files in _site:"
-          find _site -name "*.html" -exec grep -l "google\|api\|event" {} \; | head -5 || echo "No files found with API content"
-        env:
+      env:
           NODE_ENV: production
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
 
