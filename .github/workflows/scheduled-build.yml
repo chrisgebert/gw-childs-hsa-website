@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
@@ -35,26 +35,8 @@ jobs:
           NODE_ENV: production
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
 
-      - name: Deploy to Netlify
-        id: netlify-deploy
-        run: |
-          npm install -g netlify-cli
-
-          DEPLOY_OUTPUT=$(netlify deploy --prod --dir=_site --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=${{ secrets.NETLIFY_SITE_ID }})
-
-          if [ $? -eq 0 ]; then
-            echo "deploy_status=success" >> GITHUB_OUTPUT
-            echo "Netlify deployment successful"
-            echo "$DEPLOY_OUTPUT"
-          else
-            echo "deploy_status=failure" >> GITHUB_OUTPUT
-            echo "Netlify deployment failed"
-            echo "$DEPLOY_OUTPUT"
-            exit 1
-          fi
-
-      - name: Fallback - Trigger Netlify Build Hook
-        if: failure() && steps.eleventy-build.output.build_status == 'success'
+      - name: Trigger Netlify Build Hook
+        if: steps.eleventy-build.output.build_status == 'success'
         id: netlify-build-hook
         run: |
           echo "Attempting Netlify build via webhook..."
@@ -84,8 +66,6 @@ jobs:
           FAILED_STEP="Unknown"
           if [ "${{ steps.eleventy-build.outcome }}" == "failure" ]; then
             FAILED_STEP="11ty build"
-          elif [ "${{ steps.netlify-deploy.outcome }}" == "failure" ]; then
-            FAILED_STEP="Netlify deployment"
           elif [ "${{ steps.netlify-build-hook.outcome }}" == "failure" ]; then
             FAILED_STEP="Netlify build hook"
           fi
