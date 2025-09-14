@@ -33,7 +33,7 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
 
       - name: Trigger Netlify Build Hook
-        if: steps.eleventy-build.output.build_status == 'success'
+        if: success()
         id: netlify-build-hook
         run: |
           echo "Attempting Netlify build via webhook..."
