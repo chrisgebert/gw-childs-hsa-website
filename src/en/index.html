@@ -137,7 +137,7 @@
 						{% set recentPosts = collections.posts | reverse %}
 						<ul>
 							{% for post in recentPosts.slice(0,3) -%}
-						  <li><a href="{{ '/post.url | locale_url' }}">{{ post.data.title }}</a></li>
+						  <li><a href="{{ post.url | locale_url }}">{{ post.data.title }}</a></li>
 						{% endfor %}
 						</ul>
 					<form
