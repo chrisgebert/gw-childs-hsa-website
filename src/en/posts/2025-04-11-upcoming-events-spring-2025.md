@@ -6,7 +6,7 @@ author: Chris Gebert
 tags:
     - post
 ---
-### Upcoming Events 
+## Upcoming Events
 
 - Saturday, April 12th, 10am-12pm: Books in the Breeze event at the South Philly branch of the Free Library
 - Tuesday, April 24th: Next HSA meeting (9am in-person and 7pm over Zoom)

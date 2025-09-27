@@ -6,7 +6,7 @@ author: Chris Gebert
 tags:
     - post
 ---
-### Board Elections
+## Board Elections
 
 The HSA will be holding elections for the next 2-year term. Positions are President, Vice-President, Secretary, and Treasurer. Once we have a nominating committee in place, we can work with the Home & School Council to conduct the elections.
 

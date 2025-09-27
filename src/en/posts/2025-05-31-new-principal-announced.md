@@ -6,7 +6,7 @@ author: Chris Gebert
 tags:
     - post
 ---
-### Welcome New Principal Malone!
+## Welcome New Principal Malone!
 
 The district announced yesterday that Dorianne Malone, who currently serves as Assistant Principal at Childs, will take over as the school's new principal effective July 1, 2025.
 

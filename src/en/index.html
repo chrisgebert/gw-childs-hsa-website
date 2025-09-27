@@ -58,7 +58,7 @@
 						</header>
 						<p>Find out about our upcoming HSA and school events!</p>
 						<ul>
-						{% for event in hsaevents %}
+						{% for event in hsaevents.slice(0,5) %}
 							<li>{{ event.start.dateTime | dateFormat("MMMM d, yyyy") }}: {{ event.summary }}</li>
 						{% endfor %}
 						</ul>

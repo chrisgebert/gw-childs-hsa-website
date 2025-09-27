@@ -6,13 +6,13 @@ author: Chris Gebert
 tags:
     - post
 ---
-### Upcoming Events – August 2025
+## Upcoming Events – August 2025
 
-The HSA has a few events scheduled to get ready for the start of the school year. 
+The HSA has a few events scheduled to get ready for the start of the school year.
 
 Kindergarten Meetups:
-- Thursday, August 21st: 4-6pm at Chew playground 
-- Saturday, August 23rd: 10am-1pm at  DiSilvestro playground
+- Thursday, August 21st: 4-6pm at Chew playground
+- Saturday, August 23rd: 10am-1pm at DiSilvestro playground
 
 Chalk the Walk event on Sunday, August 24th, 9am-12pm. Help us decorate and make posters and signs to cheer the students for the first day of school.
 

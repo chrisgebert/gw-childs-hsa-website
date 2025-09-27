@@ -7,7 +7,7 @@ tags:
     - post
 ---
 
-# HSA Leadership Transitions
+## HSA Leadership Transitions
 
 President Alicia Gonzalez has stepped down for personal & professional reasons. When she is not bringing new life into this world as a Doula and mom of 3, she will still be actively involved in the school community as her schedule permits.
 

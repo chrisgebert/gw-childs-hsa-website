@@ -6,11 +6,11 @@ author: Chris Gebert
 tags:
     - post
 ---
-### Fundraising Spotlight 
+## Fundraising Spotlight 
 
 Here are seven funding requests that could use your support:
 
-#### Current Projects
+### Current Projects
 
 **Fresh as a Daisy** - Dr. Fry needs $172 for hygiene supplies to help students stay clean, healthy, and safe. [https://www.donorschoose.org/project/fresh-as-a-daisy/9352003/](https://www.donorschoose.org/project/fresh-as-a-daisy/9352003/)
 
