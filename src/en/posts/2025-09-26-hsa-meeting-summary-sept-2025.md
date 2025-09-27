@@ -7,9 +7,9 @@ tags:
     - post
 ---
 
-# HSA Meeting Summary - Sept 18, 2025
+## HSA Meeting Summary - Sept 18, 2025
 
-## School Leadership Updates
+### School Leadership Updates
 
 - Title I updates
 - School Academic Performance Metrics
@@ -17,7 +17,7 @@ tags:
 - Overview of curriculum programs
 - Introducing Assistant Principal Segro
 
-# HSA Updates
+### HSA Updates
 
 - Regular monthly meetings scheduled for 3rd Thursdays at 4:30pm with both in-person and Zoom options
 - Multiple committees established including:
