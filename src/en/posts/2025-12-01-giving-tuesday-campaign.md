@@ -2,6 +2,8 @@
 title: Giving Tuesday Campaign
 layout: layouts/post.njk
 lang: en
+tags:
+  - post
 ---
 
 # Giving Tuesday Campaign
