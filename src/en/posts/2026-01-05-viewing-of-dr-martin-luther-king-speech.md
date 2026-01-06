@@ -1,3 +1,4 @@
+---
 layout: layouts/post.njk
 title: Viewing of Dr. Martin Luther King Speech
 date: "2026-01-05"
