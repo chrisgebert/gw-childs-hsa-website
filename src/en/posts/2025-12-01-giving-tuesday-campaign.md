@@ -2,6 +2,7 @@
 title: Giving Tuesday Campaign
 layout: layouts/post.njk
 lang: en
+author: Chris Gebert
 tags:
   - post
 ---
