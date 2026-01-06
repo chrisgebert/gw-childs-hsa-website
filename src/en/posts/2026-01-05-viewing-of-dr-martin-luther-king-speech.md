@@ -6,7 +6,7 @@ author: Chris Gebert
 tags:
     - post
 ---
-### Viewing of Dr. Martin Luther King Speech
+# Viewing of Dr. Martin Luther King Speech
 
 Please join the school community and alumni of Barratt/Childs school for a viewing of the historic speech given by Dr. Martin Luther King in the very auditorium where it occurred in 1967.
 
