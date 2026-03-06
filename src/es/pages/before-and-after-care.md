@@ -1,7 +1,7 @@
 ---
 title: Before- and After-care
 layout: layouts/page.njk
-lang: en
+lang: es
 ---
 
 # Before- and After-Care

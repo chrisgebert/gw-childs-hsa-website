@@ -35,9 +35,9 @@
 						<header><h2><a href="{{ '/pages/about/' | locale_url }}">About</a></h2>
 							<!-- <p class="info">3 days ago by <a href="#">Jane Doe</a></p> -->
 						</header>
-						<p>We are an organization made up of a passionate group of caregivers, teachers, and staff dedicated to enhancing the educational experience for our students. We take pride in our school's diverse community, rich history, and commitment to academic achievement. Learn more about our school, our HSA, find resources for our community, and how to get involved!</p>
+						<p>We are an organization made up of a passionate group of caregivers, teachers, and staff dedicated to enhancing the educational experience for our students. We take pride in our school's diverse community, rich history, and commitment to academic achievement. Join our HSA to help our school, our HSA, find resources for our community, and how to get involved!</p>
 						<ul class="actions">
-							<li><a href="{{ '/pages/about/' | locale_url }}" class="button alt">Learn More</a></li>
+							<li><a href="{{ '/pages/about/' | locale_url }}" class="button alt">Join the HSA</a></li>
 						</ul>
 					</div>
 					<div class="postnav">
@@ -61,6 +61,10 @@
 						{% for event in hsaevents.slice(0,5) %}
 							<li>{{ event.start.dateTime | dateFormat("MMMM d, yyyy") }}: {{ event.summary }}</li>
 						{% endfor %}
+						</ul>
+						<ul class="actions">
+							<li><a href="https://pointapp.org/orgs/9297" class="button primary special">Sign Up to Volunteer</a></li>
+							<li><a href="{{ '/pages/events/' | locale_url }}" class="button">See Our Full Calendar</a></li>
 						</ul>
 					</div>
 					<div class="postnav">
@@ -95,6 +99,9 @@
 							{% endfor %}
 							</ul>
 						{% endif %}
+							<ul class="actions">
+								<li><a href="https://venmo.com/u/gwchildshsa" class="button primary special">Donate to G.W. Childs HSA</a></li>
+							</ul>
 					</div>
 					<div class="postnav">
 						<a href="#two" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
@@ -114,7 +121,7 @@
 						</header>
 						<p>Contact the HSA board, and find school-related social media accounts!</p>
 						<ul class="actions">
-							<li><a href="{{ '/pages/contact' | locale_url }}" class="button alt">Read More</a></li>
+							<li><a href="{{ '/pages/contact' | locale_url }}" class="button alt">Contact Us</a></li>
 						</ul>
 					</div>
 					<div class="postnav">
