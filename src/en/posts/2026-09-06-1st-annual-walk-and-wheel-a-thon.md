@@ -5,13 +5,13 @@ author: Chris Gebert
 tags:
     - post
 ---
-# 1ST Annual Walk and Wheel-a-thon
+# First Annual Walk and Wheel-a-thon
 
 Let's walk, roll, and make a BIG difference together!
 
 __Thursday Sept 25th, 1:30PM-3:30PM__
 
-## What is the Walk & Wheel-athon?
+## What is the Walk & Wheel-a-thon?
 
 On September 25th, students will walk or roll laps with their class to raise money for G.W. Childs!
 
@@ -26,7 +26,7 @@ Donate on Zeffy here: [https://www.zeffy.com/en-US/ticketing/gw-childs-walkathon
 
 ### Business Sponsors Welcome!
 
-Do you own a business? Sponsor the Walk & Wheel-athon and your business will be featured in our newsletters, social media, and HSA communications.
+Do you own a business? Sponsor the Walk & Wheel-a-thon and your business will be featured in our newsletters, social media, and HSA communications.
 
 THANK YOU FOR SUPPORTING GW CHILDS!
 
