@@ -1,5 +1,6 @@
+---
 layout: layouts/post.njk
-title: 1st Annual Walk and Wheel-a-thon
+title: First Annual Walk and Wheel-a-thon
 date: "2026-09-06"
 author: Chris Gebert
 tags:
